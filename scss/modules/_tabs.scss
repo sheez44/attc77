@@ -1,0 +1,100 @@
+// Bottom tabs
+
+.tab-panels {
+  float: right;
+  margin-left: 3%;
+  ul {
+    @extend %ul-default;
+    li {     
+      @include panel-tabs();
+      .active {
+        color: #fff;
+        background: #666;
+      }
+      &:hover {
+        color: #fff;
+        background: #666;
+      }
+    }
+  }
+}
+
+.tab-panels {
+  .panel {
+    display: none;
+    background: $bgcolor-light;
+    padding: 15px;
+    border-radius: 0 5px 10px 10px;
+    height: 430px;
+    width: 430px;
+    color: black;
+    &.active {
+      display: inline-block;
+    }
+  }
+}
+
+.tab-panels ul li.active {
+  color: #fff;
+  background: #666;
+}
+
+.contact p {
+  line-height: 0.5em;
+  &:last-child {
+    font-weight: bold;
+  }
+}
+
+// News tabs
+
+
+.news-tabs {
+  @extend %clearfix;
+}
+
+
+.news {
+  border: $border-default;
+  background: $bgcolor-light;
+  padding: 3.5%;
+}
+
+.news-tab {
+  float: left;
+  width: 33.33%;
+  line-height: 75px; 
+  height: 75px;
+  background: desaturate(lighten(#008BE3, 25), 25);
+  border: 1px solid white;
+  border-bottom: 0;
+  color: #666;
+  text-align: center;
+  font-size: 15px;
+  position: relative;
+  span {
+    display: none;
+  }
+  &:hover {
+    cursor: pointer;
+    background: lighten($color-primary, 15%);
+  }
+  &.news-active {
+    background: $color-primary;
+    color: $black;
+    font-style: italic;
+    font-weight: 500;
+    &span {
+      display: inline;
+      position: absolute;
+      bottom: -10px;
+      color: $white;
+      left: 80%;
+    }
+  }  
+}
+
+#ntab2 {
+  border-left: 0;
+  border-right: 0;
+}

@@ -1,0 +1,37 @@
+// ==========================================================================
+// Main
+// ==========================================================================
+
+body {
+	font-family: $font-family--primary;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	background-color: $bgcolor-light;
+}
+
+.wrapper {
+	width: 70%;
+	height: 100%;
+	margin: 0 auto;
+	background: rgba(218, 218, 218, 0.43);
+	font-size: 1.6em;
+	@include box-shadow(0 5px 5px rgba(0, 0, 0, 0.5));
+	@media screen and (max-width: 1280px) {
+		width: 100%;
+	}
+}
+
+.container {
+	width: 60%;
+	margin: 0 $margin-side-lg; 
+	float: left;
+	@extend %clearfix;
+}
+
+
+
+.aside {
+	width: 25%;
+	margin-right: $margin-side-lg;
+	float: right;
+}

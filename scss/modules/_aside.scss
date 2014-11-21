@@ -1,0 +1,8 @@
+.aside__sponsors, .aside__agenda {
+	@extend %aside-block;
+}
+
+aside {
+	@extend %clearfix;
+}
+

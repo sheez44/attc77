@@ -1,0 +1,55 @@
+// ==========================================================================
+// Header
+// ==========================================================================
+
+@mixin heights($height) {
+	height: $height;
+	line-height: $height;
+}
+
+header {	
+	@include background(radial-gradient(rgba(darken($sps-blue, 30%), 1), #1b2225));
+	padding: 0 4.5em;
+	@include side-border(bottom, $white);
+	@extend %clearfix;
+	@include heights(10rem);
+	position: relative;
+	text-transform: uppercase;
+	.header--logo {
+		float: left;
+		font-size: 3.7rem;
+		text-shadow: 3px 3px 1px darken($color-primary, 40%);
+		font-family: $font-family--secondary;
+		color: $white;
+	}
+}
+
+.header--background {
+	background: image-url("main--bg.jpg") 112% 63% no-repeat;
+  	background-size: 100%;
+  	min-width: 100%;
+  	height: 350px;
+  	border-bottom: 1px solid white;
+}
+
+.welcome--info {
+	width: 100%;
+    position: relative;
+    background: none repeat scroll rgba(darken($color-primary, 10%), 0.93);
+    padding: 0px 15px 15px;
+   	@include side-border(bottom, $white);
+   	@include side-border(top, $white);
+    @include heights(75px);
+    text-align: right;
+    color: $white;
+    letter-spacing: 0.2em;
+    top: -4.7rem;
+    margin: 0;
+}
+
+.news__header {
+	padding: 0;
+	background-color: #000;
+	@include heights(50px);
+	color: $white;
+}

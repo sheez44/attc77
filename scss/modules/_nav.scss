@@ -1,0 +1,22 @@
+
+
+nav {
+	float: right;
+	font-size: 1.3rem;
+	.menu {
+		display: none;
+	}
+	ul {
+		@include horizontal-list(7px, left);
+	}
+	.header__links {
+		text-decoration: none;
+		color: $color-primary;
+		font-weight: bold;
+		text-shadow: 3px 3px 1px darken($color-primary, 40%);
+		&:hover {
+			color: $white;
+			text-decoration: underline;
+		}
+	}
+}
