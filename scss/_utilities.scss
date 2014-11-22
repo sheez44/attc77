@@ -37,3 +37,7 @@
   border-radius: $br;
   font-size: $font-size;
 }
+
+@mixin padding($side, $pd) {
+	padding-#{$side}: $pd; 
+}

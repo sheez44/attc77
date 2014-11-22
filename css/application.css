@@ -401,23 +401,25 @@ header .header--logo {
 
 /* line 50, ../scss/modules/_header.scss */
 .news__header {
-  padding: 0;
-  background-color: #000;
-  height: 50px;
-  line-height: 50px;
+  background-color: #0b0b0b;
+  height: 70px;
+  line-height: 70px;
   color: #fcfdf2;
+  padding-left: 14%;
+  font-size: 2em;
+  margin-top: -1.7em;
 }
 
-/* line 3, ../scss/modules/_nav.scss */
+/* line 5, ../scss/modules/_nav.scss */
 nav {
   float: right;
   font-size: 1.3rem;
 }
-/* line 6, ../scss/modules/_nav.scss */
+/* line 8, ../scss/modules/_nav.scss */
 nav .menu {
   display: none;
 }
-/* line 9, ../scss/modules/_nav.scss */
+/* line 11, ../scss/modules/_nav.scss */
 nav ul {
   margin: 0;
   padding: 0;
@@ -447,25 +449,25 @@ nav ul li:last-child {
 nav ul li.last {
   padding-right: 0;
 }
-/* line 12, ../scss/modules/_nav.scss */
+/* line 14, ../scss/modules/_nav.scss */
 nav .header__links {
   text-decoration: none;
   color: #008BE3;
   font-weight: bold;
   text-shadow: 3px 3px 1px #000e17;
 }
-/* line 17, ../scss/modules/_nav.scss */
+/* line 19, ../scss/modules/_nav.scss */
 nav .header__links:hover {
   color: #fcfdf2;
   text-decoration: underline;
 }
 
-/* line 3, ../scss/modules/_tabs.scss */
+/* line 9, ../scss/modules/_tabs.scss */
 .tab-panels {
   float: right;
   margin-left: 3%;
 }
-/* line 8, ../scss/modules/_tabs.scss */
+/* line 14, ../scss/modules/_tabs.scss */
 .tab-panels ul li {
   background: #999;
   color: #fff;
@@ -473,18 +475,18 @@ nav .header__links:hover {
   border-radius: 10px 10px 0 0;
   font-size: 2.2rem;
 }
-/* line 10, ../scss/modules/_tabs.scss */
+/* line 16, ../scss/modules/_tabs.scss */
 .tab-panels ul li .active {
   color: #fff;
   background: #666;
 }
-/* line 14, ../scss/modules/_tabs.scss */
+/* line 20, ../scss/modules/_tabs.scss */
 .tab-panels ul li:hover {
   color: #fff;
   background: #666;
 }
 
-/* line 23, ../scss/modules/_tabs.scss */
+/* line 29, ../scss/modules/_tabs.scss */
 .tab-panels .panel {
   display: none;
   background: #82cfff;
@@ -494,64 +496,58 @@ nav .header__links:hover {
   width: 430px;
   color: black;
 }
-/* line 31, ../scss/modules/_tabs.scss */
+/* line 37, ../scss/modules/_tabs.scss */
 .tab-panels .panel.active {
   display: inline-block;
 }
 
-/* line 37, ../scss/modules/_tabs.scss */
+/* line 43, ../scss/modules/_tabs.scss */
 .tab-panels ul li.active {
   color: #fff;
   background: #666;
 }
 
-/* line 42, ../scss/modules/_tabs.scss */
+/* line 48, ../scss/modules/_tabs.scss */
 .contact p {
   line-height: 0.5em;
 }
-/* line 44, ../scss/modules/_tabs.scss */
+/* line 50, ../scss/modules/_tabs.scss */
 .contact p:last-child {
   font-weight: bold;
 }
 
-/* line 57, ../scss/modules/_tabs.scss */
-.news {
-  border: 1px solid #fcfdf2;
-  background: #82cfff;
-  padding: 3.5%;
-}
-
-/* line 63, ../scss/modules/_tabs.scss */
+/* line 61, ../scss/modules/_tabs.scss */
 .news-tab {
   float: left;
   width: 33.33%;
-  line-height: 75px;
+  padding: 2% 2% 0 2%;
   height: 75px;
   background: #77beec;
   border: 1px solid white;
   border-bottom: 0;
   color: #666;
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   position: relative;
+  letter-spacing: 0.03em;
 }
-/* line 75, ../scss/modules/_tabs.scss */
+/* line 74, ../scss/modules/_tabs.scss */
 .news-tab span {
   display: none;
 }
-/* line 78, ../scss/modules/_tabs.scss */
+/* line 77, ../scss/modules/_tabs.scss */
 .news-tab:hover {
   cursor: pointer;
   background: #31afff;
 }
-/* line 82, ../scss/modules/_tabs.scss */
+/* line 81, ../scss/modules/_tabs.scss */
 .news-tab.news-active {
   background: #008BE3;
   color: #0b0b0b;
   font-style: italic;
-  font-weight: 500;
+  color: #fcfdf2;
 }
-/* line 87, ../scss/modules/_tabs.scss */
+/* line 86, ../scss/modules/_tabs.scss */
 .news-tab.news-activespan {
   display: inline;
   position: absolute;
@@ -560,8 +556,26 @@ nav .header__links:hover {
   left: 80%;
 }
 
-/* line 97, ../scss/modules/_tabs.scss */
+/* line 96, ../scss/modules/_tabs.scss */
 #ntab2 {
   border-left: 0;
   border-right: 0;
+}
+
+/* line 5, ../scss/modules/_articles.scss */
+.news {
+  border: 1px solid #fcfdf2;
+  background: #82cfff;
+  padding: 3.5%;
+  display: none;
+}
+/* line 10, ../scss/modules/_articles.scss */
+.news.active {
+  display: block;
+}
+/* line 13, ../scss/modules/_articles.scss */
+.news__image {
+  padding-left: 12px;
+  padding-bottom: 10px;
+  float: right;
 }

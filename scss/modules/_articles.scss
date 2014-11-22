@@ -1,0 +1,20 @@
+// ==========================================================================
+// Articles
+// ==========================================================================
+
+.news {
+  border: $border-default;
+  background: $bgcolor-light;
+  padding: 3.5%;
+  display: none;
+  &.active {
+    display: block;
+  }
+  &__image {
+  	@include padding(left, 12px);
+  	@include padding(bottom, 10px);
+  	float: right;
+  }
+}
+
+
