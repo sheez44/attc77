@@ -26,12 +26,25 @@ body {
 	margin: 0 $margin-side-lg; 
 	float: left;
 	@extend %clearfix;
+	margin-bottom: 2%;
 }
-
-
 
 .aside {
 	width: 25%;
 	margin-right: $margin-side-lg;
 	float: right;
+}
+
+.bottom--container {
+	clear: both;
+	margin-left: $margin-side-lg;
+	margin-right: $margin-side-lg;
+	border: $border-default;
+	background: linear-gradient($bgcolor-light, $white);
+	@extend %clearfix;
+}
+
+.bottom__section {
+	width: 30%;
+	float: left;
 }

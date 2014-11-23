@@ -2,6 +2,10 @@
 	@extend %aside-block;
 }
 
+.aside__sponsors {
+	margin-bottom: $margin-section-default;
+}
+
 aside {
 	@extend %clearfix;
 }

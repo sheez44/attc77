@@ -1,6 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Bitter:400,700,400italic");
 /* line 8, ../scss/_helpers.scss */
-.container:after, header:after, aside:after, .news-tabs:after {
+.container:after, .bottom--container:after, header:after, aside:after, .news-tabs:after {
   content: "";
   display: table;
   clear: both;
@@ -342,13 +342,29 @@ body {
   width: 60%;
   margin: 0 3%;
   float: left;
+  margin-bottom: 2%;
 }
 
-/* line 33, ../scss/_main.scss */
+/* line 32, ../scss/_main.scss */
 .aside {
   width: 25%;
   margin-right: 3%;
   float: right;
+}
+
+/* line 38, ../scss/_main.scss */
+.bottom--container {
+  clear: both;
+  margin-left: 3%;
+  margin-right: 3%;
+  border: 1px solid #fcfdf2;
+  background: linear-gradient(#82cfff, #fcfdf2);
+}
+
+/* line 47, ../scss/_main.scss */
+.bottom__section {
+  width: 30%;
+  float: left;
 }
 
 /* line 10, ../scss/modules/_header.scss */
@@ -462,12 +478,12 @@ nav .header__links:hover {
   text-decoration: underline;
 }
 
-/* line 9, ../scss/modules/_tabs.scss */
-.tab-panels {
-  float: right;
-  margin-left: 3%;
+/* line 5, ../scss/modules/_aside.scss */
+.aside__sponsors {
+  margin-bottom: 8%;
 }
-/* line 14, ../scss/modules/_tabs.scss */
+
+/* line 11, ../scss/modules/_tabs.scss */
 .tab-panels ul li {
   background: #999;
   color: #fff;
@@ -475,18 +491,18 @@ nav .header__links:hover {
   border-radius: 10px 10px 0 0;
   font-size: 2.2rem;
 }
-/* line 16, ../scss/modules/_tabs.scss */
+/* line 13, ../scss/modules/_tabs.scss */
 .tab-panels ul li .active {
   color: #fff;
   background: #666;
 }
-/* line 20, ../scss/modules/_tabs.scss */
+/* line 17, ../scss/modules/_tabs.scss */
 .tab-panels ul li:hover {
   color: #fff;
   background: #666;
 }
 
-/* line 29, ../scss/modules/_tabs.scss */
+/* line 25, ../scss/modules/_tabs.scss */
 .tab-panels .panel {
   display: none;
   background: #82cfff;
@@ -496,27 +512,27 @@ nav .header__links:hover {
   width: 430px;
   color: black;
 }
-/* line 37, ../scss/modules/_tabs.scss */
+/* line 33, ../scss/modules/_tabs.scss */
 .tab-panels .panel.active {
   display: inline-block;
 }
 
-/* line 43, ../scss/modules/_tabs.scss */
+/* line 39, ../scss/modules/_tabs.scss */
 .tab-panels ul li.active {
   color: #fff;
   background: #666;
 }
 
-/* line 48, ../scss/modules/_tabs.scss */
+/* line 44, ../scss/modules/_tabs.scss */
 .contact p {
   line-height: 0.5em;
 }
-/* line 50, ../scss/modules/_tabs.scss */
+/* line 46, ../scss/modules/_tabs.scss */
 .contact p:last-child {
   font-weight: bold;
 }
 
-/* line 61, ../scss/modules/_tabs.scss */
+/* line 57, ../scss/modules/_tabs.scss */
 .news-tab {
   float: left;
   width: 33.33%;
@@ -531,23 +547,23 @@ nav .header__links:hover {
   position: relative;
   letter-spacing: 0.03em;
 }
-/* line 74, ../scss/modules/_tabs.scss */
+/* line 70, ../scss/modules/_tabs.scss */
 .news-tab span {
   display: none;
 }
-/* line 77, ../scss/modules/_tabs.scss */
+/* line 73, ../scss/modules/_tabs.scss */
 .news-tab:hover {
   cursor: pointer;
   background: #31afff;
 }
-/* line 81, ../scss/modules/_tabs.scss */
+/* line 77, ../scss/modules/_tabs.scss */
 .news-tab.news-active {
   background: #008BE3;
   color: #0b0b0b;
   font-style: italic;
   color: #fcfdf2;
 }
-/* line 86, ../scss/modules/_tabs.scss */
+/* line 82, ../scss/modules/_tabs.scss */
 .news-tab.news-activespan {
   display: inline;
   position: absolute;
@@ -556,7 +572,7 @@ nav .header__links:hover {
   left: 80%;
 }
 
-/* line 96, ../scss/modules/_tabs.scss */
+/* line 92, ../scss/modules/_tabs.scss */
 #ntab2 {
   border-left: 0;
   border-right: 0;

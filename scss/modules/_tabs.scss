@@ -6,21 +6,17 @@
 
 // Bottom tabs
 
-.tab-panels {
-  float: right;
-  margin-left: 3%;
-  ul {
-    @extend %ul-default;
-    li {     
-      @include panel-tabs();
-      .active {
-        color: #fff;
-        background: #666;
-      }
-      &:hover {
-        color: #fff;
-        background: #666;
-      }
+.tab-panels ul {
+  @extend %ul-default;
+  li {     
+    @include panel-tabs();
+    .active {
+      color: #fff;
+      background: #666;
+    }
+    &:hover {
+      color: #fff;
+      background: #666;
     }
   }
 }

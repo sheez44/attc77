@@ -1,7 +1,7 @@
 // Code goes here
 
 $(document).ready(function() {
-  var $tab = $(".bot_section").find(".tabs li");
+  var $tab = $(".bottom--container").find(".tabs li");
   
   $tab.on('click', function() {
     var $activeTab = $(".tabs").find("li.active");

@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"marg",
+				"margin-side-lg"
+			],
+			[
+				"aside_",
+				"aside__sponsors"
+			],
+			[
 				"color",
 				"color-primary"
 			],
@@ -31,7 +39,7 @@
 			"file": "/C/Users/johan/Desktop/test/index.html",
 			"settings":
 			{
-				"buffer_size": 13332,
+				"buffer_size": 13036,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,7 +47,7 @@
 			"file": "_config.scss",
 			"settings":
 			{
-				"buffer_size": 1334,
+				"buffer_size": 1363,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +55,34 @@
 			"file": "/C/Users/johan/Desktop/test/css/application.css",
 			"settings":
 			{
-				"buffer_size": 9952,
+				"buffer_size": 11255,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "// ==========================================================================\n// Helpers\n// ==========================================================================\n\n// Clearfix\n\n%clearfix {\n  &:after {\n    content: \"\";\n    display: table;\n    clear: both;\n  }\n}\n\n// Screen reader text\n\n.srt {\n	border: 0;\n	clip: rect(0 0 0 0);\n	height: 1px;\n	margin: -1px;\n	overflow: hidden;\n	padding: 0;\n	position: absolute;\n	width: 1px;\n}\n\n// For pseudo-elements\n\n%pseudos {\n  display: block;\n  content: ''; \n  position: absolute;\n}\n\n%aside-block {\n	background-color: $bgcolor-light;\n	border: $border-default;\n	padding: 15px;\n}\n\n%ul-default {\n	margin: 0;\n    padding: 0;\n    list-style-type: none;\n}\n\n%panel-tabs {\n  display: inline-block;\n  margin: 0;\n  font-weight: 200;\n  cursor: pointer;\n}\n",
+			"file": "_helpers.scss",
+			"file_size": 781,
+			"file_write_time": 130609721533459167,
+			"settings":
+			{
+				"buffer_size": 782,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_utilities.scss",
+			"settings":
+			{
+				"buffer_size": 1001,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "modules/_tabs.scss",
+			"settings":
+			{
+				"buffer_size": 1531,
 				"line_ending": "Windows"
 			}
 		},
@@ -55,32 +90,27 @@
 			"file": "modules/_index.scss",
 			"settings":
 			{
-				"buffer_size": 65,
+				"buffer_size": 85,
 				"line_ending": "Windows",
 				"name": "@import \"header\";"
 			}
 		},
 		{
-			"file": "modules/_tabs.scss",
+			"file": "modules/_articles.scss",
 			"settings":
 			{
-				"buffer_size": 1494,
+				"buffer_size": 411,
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"contents": "// ==========================================================================\n// Navigation\n// ==========================================================================\n\n\n// Main navigation menu\n\nnav {\n	float: right;\n	font-size: 1.3rem;\n	.menu {\n		display: none;\n	}\n	ul {\n		@include horizontal-list(7px, left);\n	}\n	.header__links {\n		text-decoration: none;\n		color: $color-primary;\n		font-weight: bold;\n		text-shadow: 3px 3px 1px darken($color-primary, 40%);\n		&:hover {\n			color: $white;\n			text-decoration: underline;\n		}\n	}\n}\n",
 			"file": "modules/_nav.scss",
+			"file_size": 528,
+			"file_write_time": 130611438514034563,
 			"settings":
 			{
-				"buffer_size": 335,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "modules/_header.scss",
-			"settings":
-			{
-				"buffer_size": 1305,
+				"buffer_size": 530,
 				"line_ending": "Windows"
 			}
 		},
@@ -88,7 +118,7 @@
 			"file": "_main.scss",
 			"settings":
 			{
-				"buffer_size": 702,
+				"buffer_size": 970,
 				"line_ending": "Unix"
 			}
 		}
@@ -133,9 +163,12 @@
 	},
 	"file_history":
 	[
-		"/C/Users/johan/Desktop/test/scss/_helpers.scss",
+		"/C/Users/johan/Desktop/test/js/script.js",
+		"/C/Users/johan/Desktop/test/scss/modules/_tabs.scss",
 		"/C/Users/johan/Desktop/test/scss/modules/_aside.scss",
 		"/C/Users/johan/Desktop/test/scss/_utilities.scss",
+		"/C/Users/johan/Desktop/test/scss/modules/_header.scss",
+		"/C/Users/johan/Desktop/test/scss/_helpers.scss",
 		"/C/Users/johan/Desktop/test/css/footable_theme.css",
 		"/C/Users/johan/Desktop/test/config.rb",
 		"/C/Users/johan/Desktop/test/scss/_reset.scss",
@@ -164,6 +197,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"class=\"img-responsive",
+			"pull-right",
+			"pull",
 			"clearfix",
 			"clear",
 			"mid",
@@ -194,15 +230,15 @@
 					"file": "/C/Users/johan/Desktop/test/index.html",
 					"settings":
 					{
-						"buffer_size": 13332,
+						"buffer_size": 13036,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1757,
-								1757
+								10733,
+								10733
 							]
 						],
 						"settings":
@@ -260,7 +296,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 478.0,
+						"translation.y": 3988.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -270,15 +306,15 @@
 					"file": "_config.scss",
 					"settings":
 					{
-						"buffer_size": 1334,
+						"buffer_size": 1363,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								716,
-								716
+								1204,
+								1204
 							]
 						],
 						"settings":
@@ -344,15 +380,15 @@
 					"file": "/C/Users/johan/Desktop/test/css/application.css",
 					"settings":
 					{
-						"buffer_size": 9952,
+						"buffer_size": 11255,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								343,
-								343
+								0,
+								0
 							]
 						],
 						"settings":
@@ -414,27 +450,253 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 3,
-					"file": "modules/_index.scss",
+					"file": "_helpers.scss",
 					"settings":
 					{
-						"buffer_size": 65,
+						"buffer_size": 782,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								65,
-								65
+								782,
+								782
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_utilities.scss",
+					"settings":
+					{
+						"buffer_size": 1001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								996,
+								996
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "modules/_tabs.scss",
+					"settings":
+					{
+						"buffer_size": 1531,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								182,
+								182
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "modules/_index.scss",
+					"settings":
+					{
+						"buffer_size": 85,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85,
+								85
 							]
 						],
 						"settings":
@@ -497,19 +759,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "modules/_tabs.scss",
+					"buffer": 7,
+					"file": "modules/_articles.scss",
 					"settings":
 					{
-						"buffer_size": 1494,
+						"buffer_size": 411,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1308,
-								1308
+								410,
+								410
 							]
 						],
 						"settings":
@@ -567,25 +829,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 756.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"file": "modules/_nav.scss",
 					"settings":
 					{
-						"buffer_size": 335,
+						"buffer_size": 530,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								68,
-								68
+								196,
+								196
 							]
 						],
 						"settings":
@@ -648,94 +910,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "modules/_header.scss",
-					"settings":
-					{
-						"buffer_size": 1305,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								210,
-								210
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "_main.scss",
 					"settings":
 					{
-						"buffer_size": 702,
+						"buffer_size": 970,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								560,
-								560
+								919,
+								919
 							]
 						],
 						"settings":
@@ -792,7 +979,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 216.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
