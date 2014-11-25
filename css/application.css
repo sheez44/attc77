@@ -359,12 +359,57 @@ body {
   margin-right: 3%;
   border: 1px solid #fcfdf2;
   background: linear-gradient(#82cfff, #fcfdf2);
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
 
-/* line 47, ../scss/_main.scss */
+/* line 49, ../scss/_main.scss */
 .bottom__section {
-  width: 30%;
   float: left;
+  width: 27%;
+  border: 1px solid #0b0b0b;
+  margin-left: 2.5%;
+  background: rgba(91, 119, 136, 0.2);
+}
+/* line 55, ../scss/_main.scss */
+.bottom__section h3 {
+  text-align: center;
+}
+/* line 58, ../scss/_main.scss */
+.bottom__section--contact {
+  width: 36%;
+  margin-right: 2.5%;
+  overflow: hidden;
+  border: 0;
+  background: none;
+}
+/* line 64, ../scss/_main.scss */
+.bottom__section--contact img {
+  max-width: 100%;
+}
+/* line 69, ../scss/_main.scss */
+.bottom__section--downloads ul {
+  padding: 0;
+}
+/* line 71, ../scss/_main.scss */
+.bottom__section--downloads ul li {
+  list-style-type: none;
+  border-bottom: 1px dashed #ddd;
+  text-align: center;
+  padding: 3%;
+}
+/* line 76, ../scss/_main.scss */
+.bottom__section--downloads ul li:last-child {
+  border: 0;
+}
+/* line 79, ../scss/_main.scss */
+.bottom__section--downloads ul li:hover {
+  background: rgba(57, 126, 170, 0.5);
+}
+/* line 82, ../scss/_main.scss */
+.bottom__section--downloads ul li a {
+  text-decoration: none;
+  color: #0b0b0b;
 }
 
 /* line 10, ../scss/modules/_header.scss */
@@ -483,56 +528,47 @@ nav .header__links:hover {
   margin-bottom: 8%;
 }
 
-/* line 11, ../scss/modules/_tabs.scss */
+/* line 5, ../scss/modules/_tabs.scss */
+.tab-panels ul li .active, .tab-panels ul li:hover, .tab-panels ul li.active {
+  color: #fff;
+  background: #666;
+}
+
+/* line 16, ../scss/modules/_tabs.scss */
 .tab-panels ul li {
   background: #999;
   color: #fff;
   padding: 3px 10px;
   border-radius: 10px 10px 0 0;
   font-size: 2.2rem;
-}
-/* line 13, ../scss/modules/_tabs.scss */
-.tab-panels ul li .active {
-  color: #fff;
-  background: #666;
-}
-/* line 17, ../scss/modules/_tabs.scss */
-.tab-panels ul li:hover {
-  color: #fff;
-  background: #666;
+  font-size: 1.2em;
 }
 
-/* line 25, ../scss/modules/_tabs.scss */
+/* line 29, ../scss/modules/_tabs.scss */
 .tab-panels .panel {
   display: none;
-  background: #82cfff;
+  background: rgba(91, 119, 136, 0.2);
   padding: 15px;
   border-radius: 0 5px 10px 10px;
   height: 430px;
   width: 430px;
   color: black;
 }
-/* line 33, ../scss/modules/_tabs.scss */
+/* line 37, ../scss/modules/_tabs.scss */
 .tab-panels .panel.active {
   display: inline-block;
 }
 
-/* line 39, ../scss/modules/_tabs.scss */
-.tab-panels ul li.active {
-  color: #fff;
-  background: #666;
-}
-
-/* line 44, ../scss/modules/_tabs.scss */
+/* line 47, ../scss/modules/_tabs.scss */
 .contact p {
   line-height: 0.5em;
 }
-/* line 46, ../scss/modules/_tabs.scss */
+/* line 49, ../scss/modules/_tabs.scss */
 .contact p:last-child {
   font-weight: bold;
 }
 
-/* line 57, ../scss/modules/_tabs.scss */
+/* line 60, ../scss/modules/_tabs.scss */
 .news-tab {
   float: left;
   width: 33.33%;
@@ -547,23 +583,23 @@ nav .header__links:hover {
   position: relative;
   letter-spacing: 0.03em;
 }
-/* line 70, ../scss/modules/_tabs.scss */
+/* line 73, ../scss/modules/_tabs.scss */
 .news-tab span {
   display: none;
 }
-/* line 73, ../scss/modules/_tabs.scss */
+/* line 76, ../scss/modules/_tabs.scss */
 .news-tab:hover {
   cursor: pointer;
   background: #31afff;
 }
-/* line 77, ../scss/modules/_tabs.scss */
+/* line 80, ../scss/modules/_tabs.scss */
 .news-tab.news-active {
   background: #008BE3;
   color: #0b0b0b;
   font-style: italic;
   color: #fcfdf2;
 }
-/* line 82, ../scss/modules/_tabs.scss */
+/* line 85, ../scss/modules/_tabs.scss */
 .news-tab.news-activespan {
   display: inline;
   position: absolute;
@@ -572,7 +608,7 @@ nav .header__links:hover {
   left: 80%;
 }
 
-/* line 92, ../scss/modules/_tabs.scss */
+/* line 95, ../scss/modules/_tabs.scss */
 #ntab2 {
   border-left: 0;
   border-right: 0;
@@ -594,4 +630,72 @@ nav .header__links:hover {
   padding-left: 12px;
   padding-bottom: 10px;
   float: right;
+}
+
+/* line 1, ../scss/modules/_flipsides.scss */
+.flip-container {
+  -moz-perspective: 1000;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+}
+
+/* flip the pane when hovered */
+/* line 6, ../scss/modules/_flipsides.scss */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  -moz-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 11, ../scss/modules/_flipsides.scss */
+.flip-container, .front, .back {
+  width: 100%;
+  height: 480px;
+}
+
+/* flip speed goes here */
+/* line 17, ../scss/modules/_flipsides.scss */
+.flipper {
+  transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+/* hide back of pane during swap */
+/* line 24, ../scss/modules/_flipsides.scss */
+.front, .back {
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* front pane, placed above back */
+/* line 32, ../scss/modules/_flipsides.scss */
+.front {
+  z-index: 2;
+  background: transparent;
+  text-align: center;
+}
+/* line 36, ../scss/modules/_flipsides.scss */
+.front img {
+  margin: 0 auto;
+}
+
+/* back, initially hidden pane */
+/* line 42, ../scss/modules/_flipsides.scss */
+.back {
+  -moz-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  line-height: 480px;
+  background: transparent;
+  text-align: center;
 }

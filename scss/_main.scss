@@ -11,14 +11,14 @@ body {
 
 .wrapper {
 	width: 70%;
+	@media screen and (max-width: 1280px) {
+		width: 100%;
+	}
 	height: 100%;
 	margin: 0 auto;
 	background: rgba(218, 218, 218, 0.43);
 	font-size: 1.6em;
 	@include box-shadow(0 5px 5px rgba(0, 0, 0, 0.5));
-	@media screen and (max-width: 1280px) {
-		width: 100%;
-	}
 }
 
 .container {
@@ -42,9 +42,48 @@ body {
 	border: $border-default;
 	background: linear-gradient($bgcolor-light, $white);
 	@extend %clearfix;
+	@include padding(top, $padding-botsection-default-lg); // Work with opposite?
+	@include padding(bottom, $padding-botsection-default-lg);
 }
 
 .bottom__section {
-	width: 30%;
 	float: left;
+	width: 27%;
+	border: $border-default-black;
+	margin-left: $margin-botsection-default-lg;
+	background: desaturate(rgba($color-primary, 0.2), 80%);
+	h3 {
+		text-align: center;
+	}
+	&--contact {
+		width: 36%;
+		margin-right: $margin-botsection-default-lg;
+		overflow: hidden;
+		border: 0;
+		background: none;
+		img {
+			max-width: 100%;
+		}
+	}
+	&--downloads {
+		ul {
+			padding: 0;
+			li {
+				list-style-type: none;
+				border-bottom: 1px dashed #ddd;
+				text-align: center;
+				padding: 3%;
+				&:last-child {
+					border: 0;
+				}
+				&:hover {
+					background: desaturate(rgba($color-primary, 0.5), 50%);
+				}
+				a {
+					text-decoration: none;
+					color: $black;
+				}
+			}
+		}
+	}
 }

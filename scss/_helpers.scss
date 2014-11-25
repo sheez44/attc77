@@ -51,3 +51,25 @@
   font-weight: 200;
   cursor: pointer;
 }
+
+%panel-list {
+  ul {
+      padding: 0;
+      li {
+        list-style-type: none;
+        border-bottom: 1px dashed #ddd;
+        text-align: center;
+        padding: 3%;
+        &:last-child {
+          border: 0;
+        }
+        &:hover {
+          background: desaturate(rgba($color-primary, 0.5), 50%);
+        }
+        a {
+          text-decoration: none;
+          color: $black;
+        }
+      }
+    }
+}
