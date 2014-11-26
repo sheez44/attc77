@@ -33,9 +33,7 @@
 	z-index: 2;
 	background: rgba(0,0,0,0);
 	text-align: center;
-	img {
-	  margin: 0 auto;
-	}
+	@extend %img-resp;
 }
 
 /* back, initially hidden pane */

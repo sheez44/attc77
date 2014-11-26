@@ -4,9 +4,17 @@
 
 .aside__sponsors {
 	margin-bottom: $margin-section-default;
+	@extend %img-resp;
+	&--images {
+		text-align: center;
+	}
+
 }
 
 aside {
 	@extend %clearfix;
 }
 
+.aside h2 {
+	text-align: center;
+}

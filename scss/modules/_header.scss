@@ -17,10 +17,14 @@ header {
 	text-transform: uppercase;
 	.header--logo {
 		float: left;
-		font-size: 3.7rem;
+		
 		text-shadow: 3px 3px 1px darken($color-primary, 40%);
 		font-family: $font-family--secondary;
 		color: $white;
+		h1 {
+			margin: 0;
+			font-size: 3.7rem;
+		}
 	}
 }
 

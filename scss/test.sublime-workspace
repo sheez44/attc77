@@ -40,13 +40,10 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html>\n  \n<head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <title>Tafeltennisvereniging ATTC '77</title>\n  <meta name=\"description\" content=\"ATTC'77 is een tafeltennisvereniging uit Aarle-Rixtel.\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"css/application.css\">\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"css/footable_theme.css\" />\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"css/iconize.css\">\n  <link rel=\"stylesheet\" href=\"css/font-awesome.min.css\">  \n</head>\n\n<body>\n  <div class=\"wrapper\">\n    <header>\n        <div class=\"header--logo\">\n          ATTC '77\n        </div>\n        <nav>\n          <ul>\n            <li>\n              <a class=\"header__links\" href=\"#\">Home</a>\n            </li>\n            <li>\n              <a class=\"header__links\" href=\"views/competitie.html\">Competitie</a>\n            </li>\n            <li>\n              <a class=\"header__links\" href=\"views/fotos.html\">Foto's</a>\n            </li>\n            <li>\n              <a class=\"header__links\" href=\"views/informatie.html\">Algemene informatie</a>\n            </li>\n            <li>\n              <a class=\"header__links\" href=\"views/contact.html\">Nieuws</a>\n            </li>\n          </ul>\n          <div class=\"menu\">\n          Menu <span class=\"fa fa-reorder fa-1x\"></span>\n          </div>\n        </nav>\n    </header>\n    <!-- END OF HEADER -->\n    <div class=\"header--background\"></div>\n    \n    <h1 class=\"welcome--info\">Welkom op de website van ATTC '77</h1>\n\n    <!-- END OF TOP SECTION -->\n    <h2 class=\"news__header\">Laatste nieuws:</h1>\n    \n    <div class=\"container\">\n      <div class=\"news-tabs\"> \n        <div id=\"ntab1\" rel=\"news1\" class=\"news-tab news-active\" >Het 1e en 3e verliest wederom<span class=\"fa fa-caret-down fa-1x\"></span></div>\n        <div id=\"ntab2\" rel=\"news2\" class=\"news-tab\" >ATTC’77 oefent tegen Deurne en Mierlo<span class=\"fa fa-caret-down fa-1x\"></div>\n        <div  id=\"ntab3\" rel=\"news3\" class=\"news-tab\" >ATTC’77 bedankt haar vrijwilligers<span class=\"fa fa-caret-down fa-1x\"></div>\n      </div>\n\n      <article class=\"news active\" id=\"news1\">\n        <h1>Het eerste en derde verliest wederom</h1>\n        <h5>Geschreven door: Frederieke van der Poel op 06-08-2014</h5>\n        \n        <img class=\"news__image\" src=\"http://www.startpagina.nl/athene/dochters/tafeltennis/images/tafeltennis.jpg\" alt=\"nieuws_Foto\">\n        <p>Heren 1 van tafeltennisvereniging ATTC’77 uit Aarle-Rixtel speelt in een spannende 1e de eerste helft werd er veel gelijk gespeeld. Pas na de vierde wedstrijd kwamen er wat grotere uitslagen op het scorebord. Tot en met de laatste wedstrijd\n        was het verschil met Stiphout 1 klein te noemen en op vrijdag 18 april moesten William Vlamings, Bart Boetzkes en Jean Paul Kanters 5 punten halen tegen Renata 2 uit Eindhoven. Na verlies van William op de sterk spelende Marcel Maijers liepen\n        de heren uit naar een 1-4 voorsprong. Jean Paul en Bart verloren, waarna Bart het kampioenspunt scoorde tegen Ben Cornuyt. Het werd uiteindelijk 4-6 waarmee ze Stiphout, die hun laatste wedstrijd met 10-0 in eigen huis wisten te winnen van Valkenswaard,\n        slechts 1 punt voor bleven. Volgende seizoen gaan de heren het nogmaals proberen in de hoogste klasse van de afdeling Zuidwest. Het was bij meer teams van ATTC’77 spannend op de laatste competitiedag.</p>\n        <p>Het tweede team ontving Budilia 2. Beide teams hadden punten nodig, Budilia om kampioen te worden en ATTC’77 om niet te degraderen. Christel van der Putten, Maurice Manders en Frederieke van de Poel begonnen voortvarend en liepen, weliswaar in\n        hele spannende wedstrijden, uit naar een riante 4-0 voorsprong toen Budilia wakker werd. Hierna wist alleen Maurice nog een punt te pakken. Door het gelijke spel en verrassende uitslagen bij de concurrenten is het tweede team als derde geëindigd.</p>\n        <p>Het vijfde team stond voor aanvang van de laatste wedstrijd onderaan in de zesde klasse H met nog een kleine kans om vijfde te worden. Hiervoor moest door Vincent Braak, Marijn van Krieken en Thijs Smulders gewonnen worden van de kampioen Geenhoven\n        5 van wie ze in de thuiswedstrijd nog met 8-2 verloren hadden. Het ging beter dan de vorige keer, maar met de 6-4 nederlaag kwamen ze toch nog twee punten te kort.</p>\n        <p>Het zesde team had nog de mogelijkheid om tweede te worden in de zevende klasse H wat recht geeft op een promotiewedstrijd. Door Stephan Vergroesen, Tessa van den Boogaard en Jan van de Broek werd knap met 6-4 gewonnen van kampioen Valkenswaard\n        6, maar concurrent Unicum 13 haalde uit met 10-0 zodat ATTC’77 helaas op de derde plek eindigde.</p>\n        <pre>Overige uitslagen: \n          ATTC’77 3 – Unicum 6 7-3 \n          Veldhoven 9 – ATTC’77 4 6-4 \n          Veldhoven 3 – ATTC’77 jeugd 1 3-7 \n          Meppers 4 – ATTC’77 jeugd 2 10-0</pre>\n        <div id=\"more_news\"><a href=\"#\">Meer nieuws</a>\n        </div>\n      </article>\n      \n      <article class=\"news\" id=\"news2\">\n        <h1>ATTC’77 oefent tegen Deurne en Mierlo</h1>\n        <h5>Geschreven door: Frederieke van der Putten op 06-09-2014</h5>\n        \n        <img class=\"news__image\" src=\"http://puwww.startpagina.nl/athene/dochters/tafeltennis/images/tafeltennis.jpg\" alt=\"nieuws_Foto\">\n        <p>Als voorbereiding op het nieuwe seizoen speelden de competitiespelers van tafeltennisvereniging ATTC’77 uit Aarle-Rixtel op 5 september een oefenwedstrijd tegen TTV Deurne en MTTV’72 uit Mierlo.</p> \n        <p>Het vijfde team van ATTC’77 was compleet evenals het vierde team van MTTV en zij speelden een competitiewedstrijd tegen elkaar. Jeroen Doensen, Dorette\n        van den Elsen en Vincent Braak speelden gelijk door twee maal winst voor zowel Vincent als Jeroen, die samen ook het dubbel wonnen.\n        Vanwege blessures, werk en vakantie waren de overige teams niet compleet en werd ervoor gekozen poules te maken. Deze poules werden op sterkte\n        ingedeeld waarbij iedereen alleen tegen spelers van de andere verenigingen speelde. Zo kon er geen eindranglijst worden opgemaakt, maar dat maakte niet uit,\n        want het ging erom weer het wedstrijdgevoel te pakken te krijgen na de lange zomerstop. Want op vrijdag 12 september, en voor sommige teams al eerder,\n        start de competitie alweer. </p> \n        <p>Dit seizoen komt ATTC’77, net als vorig seizoen, met zes teams uit in de senioren competitie. Tot en met eind november spelen nagenoeg elke vrijdagavond drie\n        seniorenteams thuis. Bij de jeugd is het gelukt een extra team te formeren, zodat met drie teams de zaalbezetting op de zaterdagmiddag wat voller is.\n        Iedereen, die het leuk lijkt een balletje te komen slaan, is weer van harte welkom. Op de maandag- en woensdagavond traint de jeugd van\n        19.00 – 20.00 uur. Senioren kunnen terecht op maandag-, woensdag- en donderdagavond vanaf 20.00 uur en op vrijdagochtend vanaf 9.00 uur.</p>\n        <p>Op de website (<a href=\"www.ttvattc77.nl\">www.ttvattc77.nl</a>) is informatie te vinden, maar loop gerust eens binnen!</p>\n      </article>\n\n      <article class=\"news\" id=\"news3\">\n        <h1>ATTC’77 bedankt haar vrijwilligers</h1>\n        <h5>Geschreven door: Frederieke van der Putten op 06-08-2014</h5>\n        \n        <img class=\"news__image\" src=\"http://www.startpagina.nl/athene/dochters/tafeltennis/images/tafeltennis.jpg\" alt=\"nieuws_Foto\">\n        <p>Een vereniging draait op vrijwilligers, zo ook bij ATTC’77 uit Aarle-Rixtel. De vereniging is er trots op\n        dat alles, zoals de bardiensten, het poetsen van de accommodatie, het verzorgen van trainingen,\n        begeleiden van de jeugd, het organiseren van activiteiten en het regelen van alles nog steeds door\n        de eigen leden wordt gedaan. En daarom werden de vrijwilligers en hun partners op zondag 28\nseptember letterlijk in het zonnetje gezet.</p>\n        <p>Na ontvangst met koffie en cake was er een door de secretaris Johan Heurter in elkaar gezette\n        fotospeurtocht door Aarle-Rixtel. Dus die groepjes mensen die overal in Aarle-Rixtel zo nieuwsgierig\n        leken rond te kijken, waren op zoek naar allerlei gefotografeerde details en weten nu dat er\n        schorseneren worden verbouwd op Croy. Terug bij de gymzaal was de barbecue warm en werd de\n        middag afgesloten onder het genot van een hapje en een drankje.</p>\n        <p>Er werd het weekend ook gespeeld door bijna alle teams. De drie jeugdteams zouden in Stiphout\n        moeten spelen. Voor Niels Doensen, Sander Bevers en Harm Steenbakkers van het tweede team\n        werd dit echter afgezegd omdat Stiphout hun team heeft moeten terugtrekken.\n        Bart Willems, Dennis van der Putten en Werner Doensen stonden tegenover Stiphout 3. De\n        jongens van ATTC’77-1 waren oppermachtig en verloren alleen het dubbel. Door de overtuigende\n        overwinning staan ze tweede achter het sterke Valkenswaard 1, waarvan ze de week ervoor nog met\n        8-2 verloren waren.</p>\n        <p>Het derde team van ATTC’77 bestaat uit vijf jongens en deze week speelden Juul Verbeeten en\n        de broers Rens en Michiel van Schaik. Juul speelt al enkele jaren competitie en won dan ook\n        alle drie zijn wedstrijden. Michiel speelt nu voor het derde seizoen competitie en volgde goed\n        met twee overwinningen. Voor Rens is dit het eerste seizoen en hij won heel goed zijn eerste\n        competitiewedstrijd. Dit samen met winst in de dubbel leverde dit team een mooie 7-3 overwinning op.</p> \n      </article>\n \n      \n    </div> <!-- END OF Container -->\n    \n    <aside class=\"aside\">\n      <div class=\"aside__sponsors\">\n        <h2>Sponsors</h1>\n        <img src=\"img/informatie/sps_logo.png\" />\n        <img src=\"img/informatie/sporteurope-logo.png\" alt=\"Sport Europa\" />\n        <img src=\"img/informatie/rabobank-logo.png\" alt=\"rabobank\" />\n      </div>\n      <div class=\"aside__agenda\">\n        <h2>Agenda</h2>\n        <table class=\"footable table\">\n          <thead>\n            <tr>\n              <th>Datum:</th>\n              <th>Activiteit:</th>\n            </tr>\n          </thead>\n          <tbody>\n            <tr>\n              <td>13 Januari 2015</td>\n              <td>Verjaardag Johan</td>\n            </tr>\n            <tr>\n              <td>25 december 2014</td>\n              <td>Kerstmis</td>\n            </tr>\n            <tr>\n              <td>10 november 2014</td>\n              <td>Verrassingstoernooi</td>\n            </tr>\n          </tbody>\n        </table>\n        </div> \n    </aside>  \n    \n    <div class=\"bottom--container\">\n      \n      <!-- CLUBBLAD -->\n      <div class=\"clubblad bottom__section\">\n        <div class=\"flip-container\" ontouchstart=\"this.classList.toggle('hover');\">\n          <div class=\"flipper\">\n            <div class=\"front\">\n              <h3>Nieuwste clubblad!</h3>\n              <img class=\"img-responsive\" src=\"img/informatie/clubblad.jpg\" alt=\"clubblad\">\n            </div>\n            <div class=\"back\">\n              <input type=\"button\" id=\"download_blad\" value=\"Download .pdf\">\n            </div>\n          </div>\n        </div>\n      </div>\n      \n      <!-- DOWNLOADS -->\n      <div class=\"downloads bottom__section\">\n        <h3>Downloads</h3>\n        <ul>\n          <li><a href=\"test.pdf\">Jaarvergadering 2014</a></li>\n          <li><a href=\"test2.pdf\">Clubblad_Juni.pdf</a></li>\n          <li><a href=\"test.xls\">Clubblad Juni</a></li>\n          <li><a href=\"test.doc\">Clubblad Juni</a></li>\n          <li><a href=\"#\">Nieuwe regelementen</a></li>\n          <li><a href=\"#\">Eind-uitslagen competitie</a></li>\n          <li><a href=\"#\">Clubblad Juni</a></li>\n          <li><a href=\"#\">Clubblad Juni</a></li>\n        </ul>\n      </div>\n      \n      <!-- CONTACT -->\n      <div class=\"tab-panels bottom__section bottom__section--contact\">\n        <ul class=\"tabs\">\n          <li rel=\"panel1\" class=\"active\">Routebeschrijving</li>\n          <li rel=\"panel2\">Contact</li>\n        </ul>\n        <div id=\"panel1\" class=\"panel active\">\n          <a href=\"https://www.google.com/maps/place/kantine+ATTC+%27%2777/@51.507929,5.641242,16z/data=!4m2!3m1!1s0x0:0xccec4b04dc58b3e5?hl=en-US\"><img src=\"img/informatie/google_maps.png\" alt=\"google maps\"></a>\n        </div>\n        <div id=\"panel2\" class=\"panel contact\">\n          <h3>Contact</h3>\n          <p>Tafeltennishal ATTC '77</p>\n          <p>Jan van Rixtelstraat 30</p>\n          <p>5735 GA AARLE-RIXTEL</p>\n          <p>06-22176068</p>\n        </div>\n      </div>\n\n    </div>\n    <!-- END OF BOT SECTION -->\n    <footer>\n      <h5>&copy; psy-dev.nl (2014)</h5>\n    </footer>\n    <!-- END OF WRAPPER -->\n  </div>\n  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js\"></script>\n  <script src=\"js/script.js\"></script>\n  <script src=\"js/footable.js\"></script>\n  <script type=\"text/javascript\">\n    $(function() {\n      $('.footable').footable();\n    });\n</body>\n\n</html>\n",
 			"file": "/C/Users/johan/Desktop/test/index.html",
-			"file_size": 13078,
-			"file_write_time": 130613178125278884,
 			"settings":
 			{
-				"buffer_size": 13025,
+				"buffer_size": 13042,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,21 +56,10 @@
 			}
 		},
 		{
-			"file": "/C/Users/johan/Desktop/test/css/application.css",
-			"settings":
-			{
-				"buffer_size": 11570,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "// ==========================================================================\n// Helpers\n// ==========================================================================\n\n// Clearfix\n\n%clearfix {\n  &:after {\n    content: \"\";\n    display: table;\n    clear: both;\n  }\n}\n\n// Screen reader text\n\n.srt {\n	border: 0;\n	clip: rect(0 0 0 0);\n	height: 1px;\n	margin: -1px;\n	overflow: hidden;\n	padding: 0;\n	position: absolute;\n	width: 1px;\n}\n\n// For pseudo-elements\n\n%pseudos {\n  display: block;\n  content: ''; \n  position: absolute;\n}\n\n%aside-block {\n	background-color: $bgcolor-light;\n	border: $border-default;\n	padding: 15px;\n}\n\n%ul-default {\n	margin: 0;\n    padding: 0;\n    list-style-type: none;\n}\n\n%panel-tabs {\n  display: inline-block;\n  margin: 0;\n  font-weight: 200;\n  cursor: pointer;\n}\n",
 			"file": "_helpers.scss",
-			"file_size": 781,
-			"file_write_time": 130609721533459167,
 			"settings":
 			{
-				"buffer_size": 782,
+				"buffer_size": 1196,
 				"line_ending": "Unix"
 			}
 		},
@@ -89,7 +75,15 @@
 			"file": "modules/_tabs.scss",
 			"settings":
 			{
-				"buffer_size": 1589,
+				"buffer_size": 1617,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/johan/Desktop/test/config.rb",
+			"settings":
+			{
+				"buffer_size": 885,
 				"line_ending": "Windows"
 			}
 		},
@@ -97,9 +91,17 @@
 			"file": "modules/_index.scss",
 			"settings":
 			{
-				"buffer_size": 85,
+				"buffer_size": 106,
 				"line_ending": "Windows",
 				"name": "@import \"header\";"
+			}
+		},
+		{
+			"file": "modules/_flipsides.scss",
+			"settings":
+			{
+				"buffer_size": 823,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -122,10 +124,13 @@
 			}
 		},
 		{
+			"contents": "// ==========================================================================\n// Main\n// ==========================================================================\n\nbody {\n	font-family: $font-family--primary;\n	font-size: $base-font-size;\n	line-height: $base-line-height;\n	background-color: $bgcolor-light;\n}\n\n.wrapper {\n	width: 70%;\n	@media screen and (max-width: 1280px) {\n		width: 100%;\n	}\n	height: 100%;\n	margin: 0 auto;\n	background: rgba(218, 218, 218, 0.43);\n	font-size: 1.6em;\n	@include box-shadow(0 5px 5px rgba(0, 0, 0, 0.5));\n}\n\n.container {\n	width: 60%;\n	margin: 0 $margin-side-lg; \n	float: left;\n	@extend %clearfix;\n	margin-bottom: 2%;\n}\n\n.aside {\n	width: 25%;\n	margin-right: $margin-side-lg;\n	float: right;\n}\n\n.bottom--container {\n	clear: both;\n	margin-left: $margin-side-lg;\n	margin-right: $margin-side-lg;\n	border: $border-default;\n	background: linear-gradient($bgcolor-light, $white);\n	@extend %clearfix;\n	@include padding(top, $padding-botsection-default-lg); // Work with opposite?\n	@include padding(bottom, $padding-botsection-default-lg);\n}\n\n.bottom__section {\n	float: left;\n	width: 27%;\n	border: $border-default-black;\n	margin-left: $margin-botsection-default-lg;\n	background: desaturate(rgba($color-primary, 0.2), 80%);\n	h3 {\n		text-align: center;\n	}\n	&--contact {\n		width: 36%;\n		margin-right: $margin-botsection-default-lg;\n		overflow: hidden;\n		border: 0;\n		background: none;\n		img {\n			max-width: 100%;\n		}\n	}\n	&--downloads {\n		@extend %panel-list;\n	}\n}\n",
 			"file": "_main.scss",
+			"file_size": 1783,
+			"file_write_time": 130614035581181901,
 			"settings":
 			{
-				"buffer_size": 1360,
+				"buffer_size": 1479,
 				"line_ending": "Unix"
 			}
 		}
@@ -170,6 +175,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/johan/Desktop/test/css/application.css",
 		"/C/Users/johan/Desktop/test/img/informatie/google_maps.png",
 		"/C/Users/johan/Desktop/test/js/script.js",
 		"/C/Users/johan/Desktop/test/scss/modules/_tabs.scss",
@@ -232,7 +238,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -240,15 +246,15 @@
 					"file": "/C/Users/johan/Desktop/test/index.html",
 					"settings":
 					{
-						"buffer_size": 13025,
+						"buffer_size": 13042,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12111,
-								12111
+								11711,
+								11711
 							]
 						],
 						"settings":
@@ -306,7 +312,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4482.0,
+						"translation.y": 922.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -323,8 +329,8 @@
 						"selection":
 						[
 							[
-								792,
-								792
+								628,
+								634
 							]
 						],
 						"settings":
@@ -380,101 +386,25 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/johan/Desktop/test/css/application.css",
-					"settings":
-					{
-						"buffer_size": 11570,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "_helpers.scss",
 					"settings":
 					{
-						"buffer_size": 782,
+						"buffer_size": 1196,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								782,
-								782
+								784,
+								784
 							]
 						],
 						"settings":
@@ -532,13 +462,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 378.0,
+						"translation.y": 389.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "_utilities.scss",
 					"settings":
 					{
@@ -612,19 +542,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "modules/_tabs.scss",
 					"settings":
 					{
-						"buffer_size": 1589,
+						"buffer_size": 1617,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								658,
-								658
+								339,
+								339
 							]
 						],
 						"settings":
@@ -682,7 +612,81 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1026.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/johan/Desktop/test/config.rb",
+					"settings":
+					{
+						"buffer_size": 885,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								349,
+								349
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -698,15 +702,15 @@
 					"file": "modules/_index.scss",
 					"settings":
 					{
-						"buffer_size": 85,
+						"buffer_size": 106,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								85,
-								85
+								106,
+								106
 							]
 						],
 						"settings":
@@ -770,6 +774,81 @@
 				},
 				{
 					"buffer": 7,
+					"file": "modules/_flipsides.scss",
+					"settings":
+					{
+						"buffer_size": 823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								217,
+								217
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "modules/_articles.scss",
 					"settings":
 					{
@@ -845,7 +924,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "modules/_nav.scss",
 					"settings":
 					{
@@ -920,19 +999,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "_main.scss",
 					"settings":
 					{
-						"buffer_size": 1360,
+						"buffer_size": 1479,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1228,
-								1228
+								1473,
+								1473
 							]
 						],
 						"settings":
@@ -989,7 +1068,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 378.0,
+						"translation.y": 486.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
