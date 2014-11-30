@@ -58,7 +58,11 @@ $border-radius-default: 10px;
 // Margins
 
 $margin-side-lg: 3%;
+$margin-side-md: 1%;
+$margin-side-sm: $margin-side-md;
+
 $margin-section-default: 8%;
+$margin-section-small: 2%;
 
 $margin-botsection-default-lg: 2.5%;
 $padding-botsection-default-lg: $margin-botsection-default-lg;

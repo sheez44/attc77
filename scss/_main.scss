@@ -11,7 +11,7 @@ body {
 
 .wrapper {
 	width: 70%;
-	@media screen and (max-width: 1580px) {
+	@include responsive(1580px) {
 		width: 100%;
 	}
 	height: 100%;
@@ -23,6 +23,14 @@ body {
 
 .container {
 	width: 60%;
+	@include responsive(1100px) {
+		width: 64%;
+	}
+	@include responsive(md) {
+		width: 100%;
+		float: none;
+		margin: 0 1% 2%;
+	}
 	margin: 0 $margin-side-lg; 
 	float: left;
 	@extend %clearfix;
@@ -44,11 +52,17 @@ body {
 	@extend %clearfix;
 	@include padding(top, $padding-botsection-default-lg); // Work with opposite?
 	@include padding(bottom, $padding-botsection-default-lg);
+	@include responsive (md) {
+		margin-left: $margin-side-md;
+		margin-right: $margin-side-md;
+		width: 98%;
+	}
 }
 
 .bottom__section {
 	float: left;
 	width: 27%;
+	height: 460px;
 	border: $border-default-black;
 	margin-left: $margin-botsection-default-lg;
 	background: desaturate(rgba($color-primary, 0.2), 80%);
@@ -61,12 +75,27 @@ body {
 		overflow: hidden;
 		border: 0;
 		background: none;
+		@include responsive(md) {
+			width: 100%;
+			margin-top: $margin-section-small;
+		}
 		img {
 			max-width: 100%;
 		}
 	}
 	&--downloads {
 		@extend %panel-list;
+		@include responsive(md) {
+			width: 46%; // not DRY
+			margin-right: $margin-botsection-default-lg;
+		}
+	}
+}
+
+.clubblad {  // need to fix name to BEM (bottom__section--clubblad)
+	@include responsive(md) {
+		width: 46%; // not DRY
+		margin-left: $margin-botsection-default-lg;
 	}
 }
 

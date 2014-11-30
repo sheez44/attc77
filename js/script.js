@@ -41,4 +41,14 @@ $(document).ready(function() {
   $tab1.on('click', tabClick);
   $tab2.on('click', tabClick);
   $tab3.on('click', tabClick);
+
+  
+  $('article').on('click', function() {
+    var $article = $(".container").find("article.active");
+    if (!$article.hasClass("maxHeight")) {
+      $article.addClass("maxHeight");
+    } else {
+      $article.removeClass("maxHeight");
+    }
+  });
 });

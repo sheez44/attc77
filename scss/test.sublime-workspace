@@ -5,7 +5,7 @@
 		[
 			[
 				"margin",
-				"margin-botsection-default-lg"
+				"margin-side-md"
 			],
 			[
 				"marg",
@@ -43,15 +43,15 @@
 			"file": "/C/Users/johan/Desktop/test/index.html",
 			"settings":
 			{
-				"buffer_size": 13042,
-				"line_ending": "Unix"
+				"buffer_size": 13120,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "_config.scss",
 			"settings":
 			{
-				"buffer_size": 1505,
+				"buffer_size": 1588,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,15 +59,7 @@
 			"file": "_helpers.scss",
 			"settings":
 			{
-				"buffer_size": 1196,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_utilities.scss",
-			"settings":
-			{
-				"buffer_size": 1001,
+				"buffer_size": 1410,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,7 +67,7 @@
 			"file": "modules/_tabs.scss",
 			"settings":
 			{
-				"buffer_size": 1617,
+				"buffer_size": 2090,
 				"line_ending": "Windows"
 			}
 		},
@@ -88,19 +80,45 @@
 			}
 		},
 		{
-			"file": "modules/_index.scss",
+			"contents": "// Code goes here\n\n$(document).ready(function() {\n  var $tab = $(\".bottom--container\").find(\".tabs li\");\n  \n  $tab.on('click', function() {\n    var $activeTab = $(\".tabs\").find(\"li.active\");\n\n    $activeTab.removeClass('active');\n    $(this).addClass('active');\n    var panelToShow = $(this).attr('rel');\n\n    $(\".tab-panels .panel.active\").slideUp(300, function() {\n      $(this).removeClass(\"active\");\n      $(\"#\" + panelToShow).slideDown(300, function() {\n        $(this).addClass(\"active\");\n      });\n    });\n  });\n\n  $(\".menu\").on('click', function() {\n    $(\"nav ul\").slideToggle();\n  });  \n\n  var $tab1 = $(\".news-tabs\").find(\"#ntab1\");\n  var $tab2 = $(\".news-tabs\").find(\"#ntab2\");\n  var $tab3 = $(\".news-tabs\").find(\"#ntab3\");\n  \n\n  var tabClick = function () {\n    var $activenTab = $(\".news-tabs\").find(\".news-active\");\n    $activenTab.removeClass('news-active');\n    $(this).addClass('news-active');\n\n    var newsToShow = $(this).attr('rel');\n\n    $(\".news.active\").removeClass('active').hide();\n    $('#' + newsToShow).addClass('active').show();\n  };\n\n  $tab1.on('click', tabClick);\n  $tab2.on('click', tabClick);\n  $tab3.on('click', tabClick);\n\n  \n  $('article').on('click', function() { // Maybe add an transition?\n    var $article = $(\".container\").find(\"article.active\");\n    if (!$article.hasClass(\"maxHeight\")) {\n      $article.addClass(\"maxHeight\");\n    } else {\n      $article.removeClass(\"maxHeight\");\n    }\n  });\n});\n",
+			"file": "/C/Users/johan/Desktop/test/js/script.js",
+			"file_size": 1466,
+			"file_write_time": 130618357168563745,
 			"settings":
 			{
-				"buffer_size": 106,
-				"line_ending": "Windows",
-				"name": "@import \"header\";"
+				"buffer_size": 1440,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_main.scss",
+			"settings":
+			{
+				"buffer_size": 2098,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_utilities.scss",
+			"settings":
+			{
+				"buffer_size": 1203,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "modules/_footer.scss",
+			"settings":
+			{
+				"buffer_size": 409,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "modules/_flipsides.scss",
 			"settings":
 			{
-				"buffer_size": 823,
+				"buffer_size": 814,
 				"line_ending": "Windows"
 			}
 		},
@@ -108,39 +126,45 @@
 			"file": "modules/_articles.scss",
 			"settings":
 			{
-				"buffer_size": 411,
+				"buffer_size": 585,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "// ==========================================================================\n// Navigation\n// ==========================================================================\n\n\n// Main navigation menu\n\nnav {\n	float: right;\n	font-size: 1.3rem;\n	.menu {\n		display: none;\n	}\n	ul {\n		@include horizontal-list(7px, left);\n	}\n	.header__links {\n		text-decoration: none;\n		color: $color-primary;\n		font-weight: bold;\n		text-shadow: 3px 3px 1px darken($color-primary, 40%);\n		&:hover {\n			color: $white;\n			text-decoration: underline;\n		}\n	}\n}\n",
 			"file": "modules/_nav.scss",
-			"file_size": 528,
-			"file_write_time": 130611438514034563,
 			"settings":
 			{
-				"buffer_size": 530,
+				"buffer_size": 736,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "// ==========================================================================\n// Main\n// ==========================================================================\n\nbody {\n	font-family: $font-family--primary;\n	font-size: $base-font-size;\n	line-height: $base-line-height;\n	background-color: $bgcolor-light;\n}\n\n.wrapper {\n	width: 70%;\n	@media screen and (max-width: 1280px) {\n		width: 100%;\n	}\n	height: 100%;\n	margin: 0 auto;\n	background: rgba(218, 218, 218, 0.43);\n	font-size: 1.6em;\n	@include box-shadow(0 5px 5px rgba(0, 0, 0, 0.5));\n}\n\n.container {\n	width: 60%;\n	margin: 0 $margin-side-lg; \n	float: left;\n	@extend %clearfix;\n	margin-bottom: 2%;\n}\n\n.aside {\n	width: 25%;\n	margin-right: $margin-side-lg;\n	float: right;\n}\n\n.bottom--container {\n	clear: both;\n	margin-left: $margin-side-lg;\n	margin-right: $margin-side-lg;\n	border: $border-default;\n	background: linear-gradient($bgcolor-light, $white);\n	@extend %clearfix;\n	@include padding(top, $padding-botsection-default-lg); // Work with opposite?\n	@include padding(bottom, $padding-botsection-default-lg);\n}\n\n.bottom__section {\n	float: left;\n	width: 27%;\n	border: $border-default-black;\n	margin-left: $margin-botsection-default-lg;\n	background: desaturate(rgba($color-primary, 0.2), 80%);\n	h3 {\n		text-align: center;\n	}\n	&--contact {\n		width: 36%;\n		margin-right: $margin-botsection-default-lg;\n		overflow: hidden;\n		border: 0;\n		background: none;\n		img {\n			max-width: 100%;\n		}\n	}\n	&--downloads {\n		@extend %panel-list;\n	}\n}\n",
-			"file": "_main.scss",
-			"file_size": 1783,
-			"file_write_time": 130614035581181901,
+			"file": "modules/_header.scss",
 			"settings":
 			{
-				"buffer_size": 1479,
-				"line_ending": "Unix"
+				"buffer_size": 1838,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "modules/_aside.scss",
+			"settings":
+			{
+				"buffer_size": 596,
+				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 58.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"package",
 				"Package Control: Install Package"
@@ -158,7 +182,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 464.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -175,11 +199,15 @@
 	},
 	"file_history":
 	[
+		"/C/Users/johan/Desktop/test/scss/modules/_test.scss",
+		"/C/Users/johan/Desktop/test/_new.scss",
+		"/C/Users/johan/Desktop/test/hallo.css",
+		"/C/Users/johan/Desktop/test/js/script.js",
+		"/C/Users/johan/Desktop/test/scss/modules/_index.scss",
+		"/C/Users/johan/Desktop/test/scss/modules/_aside.scss",
 		"/C/Users/johan/Desktop/test/css/application.css",
 		"/C/Users/johan/Desktop/test/img/informatie/google_maps.png",
-		"/C/Users/johan/Desktop/test/js/script.js",
 		"/C/Users/johan/Desktop/test/scss/modules/_tabs.scss",
-		"/C/Users/johan/Desktop/test/scss/modules/_aside.scss",
 		"/C/Users/johan/Desktop/test/scss/_utilities.scss",
 		"/C/Users/johan/Desktop/test/scss/modules/_header.scss",
 		"/C/Users/johan/Desktop/test/scss/_helpers.scss",
@@ -211,6 +239,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"  float: right;",
 			"margin",
 			"tabs-default",
 			"class=\"img-responsive",
@@ -246,15 +275,15 @@
 					"file": "/C/Users/johan/Desktop/test/index.html",
 					"settings":
 					{
-						"buffer_size": 13042,
+						"buffer_size": 13120,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11711,
-								11711
+								710,
+								710
 							]
 						],
 						"settings":
@@ -312,7 +341,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 922.0,
+						"translation.y": 3672.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -322,15 +351,15 @@
 					"file": "_config.scss",
 					"settings":
 					{
-						"buffer_size": 1505,
+						"buffer_size": 1588,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								628,
-								634
+								1436,
+								1400
 							]
 						],
 						"settings":
@@ -386,7 +415,7 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 486.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -396,15 +425,15 @@
 					"file": "_helpers.scss",
 					"settings":
 					{
-						"buffer_size": 1196,
+						"buffer_size": 1410,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								784,
-								784
+								1323,
+								1323
 							]
 						],
 						"settings":
@@ -462,99 +491,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 389.0,
+						"translation.y": 864.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "_utilities.scss",
-					"settings":
-					{
-						"buffer_size": 1001,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								996,
-								996
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "modules/_tabs.scss",
 					"settings":
 					{
-						"buffer_size": 1617,
+						"buffer_size": 2090,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								339,
-								339
+								1764,
+								1764
 							]
 						],
 						"settings":
@@ -612,13 +567,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 324.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "/C/Users/johan/Desktop/test/config.rb",
 					"settings":
 					{
@@ -690,33 +645,183 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 3,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 6,
-					"file": "modules/_index.scss",
+					"buffer": 5,
+					"file": "/C/Users/johan/Desktop/test/js/script.js",
 					"settings":
 					{
-						"buffer_size": 106,
+						"buffer_size": 1440,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								106,
-								106
+								1228,
+								1228
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
-							"auto_name": "@import \"header\";",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "_main.scss",
+					"settings":
+					{
+						"buffer_size": 2098,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1724,
+								1724
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_utilities.scss",
+					"settings":
+					{
+						"buffer_size": 1203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								896,
+								896
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
 								"bh_regex",
@@ -767,25 +872,25 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "modules/_flipsides.scss",
+					"buffer": 8,
+					"file": "modules/_footer.scss",
 					"settings":
 					{
-						"buffer_size": 823,
+						"buffer_size": 409,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								217,
-								217
+								281,
+								281
 							]
 						],
 						"settings":
@@ -848,95 +953,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "modules/_articles.scss",
-					"settings":
-					{
-						"buffer_size": 411,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								410,
-								410
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 9,
-					"file": "modules/_nav.scss",
+					"file": "modules/_flipsides.scss",
 					"settings":
 					{
-						"buffer_size": 530,
+						"buffer_size": 814,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								196,
-								196
+								669,
+								650
 							]
 						],
 						"settings":
@@ -1000,18 +1029,94 @@
 				},
 				{
 					"buffer": 10,
-					"file": "_main.scss",
+					"file": "modules/_articles.scss",
 					"settings":
 					{
-						"buffer_size": 1479,
+						"buffer_size": 585,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1473,
-								1473
+								326,
+								326
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "modules/_nav.scss",
+					"settings":
+					{
+						"buffer_size": 736,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								513,
+								513
 							]
 						],
 						"settings":
@@ -1068,7 +1173,156 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 486.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "modules/_header.scss",
+					"settings":
+					{
+						"buffer_size": 1838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1534,
+								1534
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "modules/_aside.scss",
+					"settings":
+					{
+						"buffer_size": 596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								555,
+								491
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
