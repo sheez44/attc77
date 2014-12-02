@@ -18,9 +18,7 @@ $(document).ready(function() {
     });
   });
 
-  $(".menu").on('click', function() {
-    $("nav ul").slideToggle();
-  });  
+
 
   var $tab1 = $(".news-tabs").find("#ntab1");
   var $tab2 = $(".news-tabs").find("#ntab2");
@@ -49,6 +47,21 @@ $(document).ready(function() {
       $article.addClass("maxHeight");
     } else {
       $article.removeClass("maxHeight");
+    }
+  });
+
+  $menu = $(".menu");
+  $header = $('header');
+  $nav = $('nav');
+
+  $menu.on('click', function() {
+    if (!$header.hasClass("menuHeight")) {
+      $nav.css("display", "block");
+      $header.addClass("menuHeight");
+    } else {    
+      $header.removeClass("menuHeight");
+      $nav.css("display", "none");
+
     }
   });
 });

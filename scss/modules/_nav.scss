@@ -11,7 +11,7 @@ nav {
 	@include responsive(1100px) {
 		float: none;
 	}
-	.menu {
+	@include responsive(sm) {
 		display: none;
 	}
 	ul {
@@ -24,17 +24,42 @@ nav {
 			float: none;
 			display: inline-block;
 			}
+			@include responsive(sm) {
+				display: block;
+				line-height: 2em;
+			}
+			&:first-child{
+				@include responsive(sm) {
+					margin-top: 0.5em;
+				}
+			}
 		}
 	}
+
 	.header__links { // li
 		text-decoration: none;
 		color: $color-primary;
 		font-weight: bold;
 		text-shadow: 3px 3px 1px darken($color-primary, 40%);
-
 		&:hover {
 			color: $white;
 			text-decoration: underline;
 		}
+	}
+}
+
+.menu {
+	display: none;
+	@include responsive(sm) {
+		display: block;
+		color: $color-primary;
+		line-height: 1em;
+		font-size: 1.5em;
+		&:hover {
+			color: $white;
+		}
+	}
+	i {
+		padding-left: 0.5em;
 	}
 }

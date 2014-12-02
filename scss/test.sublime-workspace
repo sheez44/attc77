@@ -43,7 +43,7 @@
 			"file": "/C/Users/johan/Desktop/test/index.html",
 			"settings":
 			{
-				"buffer_size": 13120,
+				"buffer_size": 13110,
 				"line_ending": "Windows"
 			}
 		},
@@ -59,7 +59,7 @@
 			"file": "_helpers.scss",
 			"settings":
 			{
-				"buffer_size": 1410,
+				"buffer_size": 1443,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,7 +67,7 @@
 			"file": "modules/_tabs.scss",
 			"settings":
 			{
-				"buffer_size": 2090,
+				"buffer_size": 2777,
 				"line_ending": "Windows"
 			}
 		},
@@ -80,21 +80,10 @@
 			}
 		},
 		{
-			"contents": "// Code goes here\n\n$(document).ready(function() {\n  var $tab = $(\".bottom--container\").find(\".tabs li\");\n  \n  $tab.on('click', function() {\n    var $activeTab = $(\".tabs\").find(\"li.active\");\n\n    $activeTab.removeClass('active');\n    $(this).addClass('active');\n    var panelToShow = $(this).attr('rel');\n\n    $(\".tab-panels .panel.active\").slideUp(300, function() {\n      $(this).removeClass(\"active\");\n      $(\"#\" + panelToShow).slideDown(300, function() {\n        $(this).addClass(\"active\");\n      });\n    });\n  });\n\n  $(\".menu\").on('click', function() {\n    $(\"nav ul\").slideToggle();\n  });  \n\n  var $tab1 = $(\".news-tabs\").find(\"#ntab1\");\n  var $tab2 = $(\".news-tabs\").find(\"#ntab2\");\n  var $tab3 = $(\".news-tabs\").find(\"#ntab3\");\n  \n\n  var tabClick = function () {\n    var $activenTab = $(\".news-tabs\").find(\".news-active\");\n    $activenTab.removeClass('news-active');\n    $(this).addClass('news-active');\n\n    var newsToShow = $(this).attr('rel');\n\n    $(\".news.active\").removeClass('active').hide();\n    $('#' + newsToShow).addClass('active').show();\n  };\n\n  $tab1.on('click', tabClick);\n  $tab2.on('click', tabClick);\n  $tab3.on('click', tabClick);\n\n  \n  $('article').on('click', function() { // Maybe add an transition?\n    var $article = $(\".container\").find(\"article.active\");\n    if (!$article.hasClass(\"maxHeight\")) {\n      $article.addClass(\"maxHeight\");\n    } else {\n      $article.removeClass(\"maxHeight\");\n    }\n  });\n});\n",
-			"file": "/C/Users/johan/Desktop/test/js/script.js",
-			"file_size": 1466,
-			"file_write_time": 130618357168563745,
-			"settings":
-			{
-				"buffer_size": 1440,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "_main.scss",
 			"settings":
 			{
-				"buffer_size": 2098,
+				"buffer_size": 2302,
 				"line_ending": "Windows"
 			}
 		},
@@ -126,7 +115,7 @@
 			"file": "modules/_articles.scss",
 			"settings":
 			{
-				"buffer_size": 585,
+				"buffer_size": 692,
 				"line_ending": "Windows"
 			}
 		},
@@ -134,7 +123,7 @@
 			"file": "modules/_nav.scss",
 			"settings":
 			{
-				"buffer_size": 736,
+				"buffer_size": 1117,
 				"line_ending": "Windows"
 			}
 		},
@@ -142,7 +131,7 @@
 			"file": "modules/_header.scss",
 			"settings":
 			{
-				"buffer_size": 1838,
+				"buffer_size": 2312,
 				"line_ending": "Windows"
 			}
 		},
@@ -150,7 +139,7 @@
 			"file": "modules/_aside.scss",
 			"settings":
 			{
-				"buffer_size": 596,
+				"buffer_size": 643,
 				"line_ending": "Windows"
 			}
 		}
@@ -158,7 +147,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -182,7 +171,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 512.0
+		"width": 464.0
 	},
 	"console":
 	{
@@ -199,10 +188,10 @@
 	},
 	"file_history":
 	[
+		"/C/Users/johan/Desktop/test/js/script.js",
 		"/C/Users/johan/Desktop/test/scss/modules/_test.scss",
 		"/C/Users/johan/Desktop/test/_new.scss",
 		"/C/Users/johan/Desktop/test/hallo.css",
-		"/C/Users/johan/Desktop/test/js/script.js",
 		"/C/Users/johan/Desktop/test/scss/modules/_index.scss",
 		"/C/Users/johan/Desktop/test/scss/modules/_aside.scss",
 		"/C/Users/johan/Desktop/test/css/application.css",
@@ -267,7 +256,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -275,15 +264,15 @@
 					"file": "/C/Users/johan/Desktop/test/index.html",
 					"settings":
 					{
-						"buffer_size": 13120,
+						"buffer_size": 13110,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								710,
-								710
+								735,
+								735
 							]
 						],
 						"settings":
@@ -341,7 +330,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3672.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -425,15 +414,15 @@
 					"file": "_helpers.scss",
 					"settings":
 					{
-						"buffer_size": 1410,
+						"buffer_size": 1443,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1323,
-								1323
+								1393,
+								1393
 							]
 						],
 						"settings":
@@ -501,15 +490,15 @@
 					"file": "modules/_tabs.scss",
 					"settings":
 					{
-						"buffer_size": 2090,
+						"buffer_size": 2777,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1764,
-								1764
+								2062,
+								2062
 							]
 						],
 						"settings":
@@ -567,7 +556,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 324.0,
+						"translation.y": 1253.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -645,103 +634,27 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/Users/johan/Desktop/test/js/script.js",
-					"settings":
-					{
-						"buffer_size": 1440,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1228,
-								1228
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 108.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "_main.scss",
 					"settings":
 					{
-						"buffer_size": 2098,
+						"buffer_size": 2302,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1724,
-								1724
+								2061,
+								2061
 							]
 						],
 						"settings":
@@ -798,13 +711,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 810.0,
+						"translation.y": 918.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "_utilities.scss",
 					"settings":
 					{
@@ -878,7 +791,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "modules/_footer.scss",
 					"settings":
 					{
@@ -953,7 +866,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 8,
 					"file": "modules/_flipsides.scss",
 					"settings":
 					{
@@ -1028,19 +941,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 9,
 					"file": "modules/_articles.scss",
 					"settings":
 					{
-						"buffer_size": 585,
+						"buffer_size": 692,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								326,
-								326
+								689,
+								689
 							]
 						],
 						"settings":
@@ -1104,19 +1017,94 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 10,
 					"file": "modules/_nav.scss",
 					"settings":
 					{
-						"buffer_size": 736,
+						"buffer_size": 1117,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								513,
-								513
+								976,
+								976
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "modules/_header.scss",
+					"settings":
+					{
+						"buffer_size": 2312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1397,
+								1397
 							]
 						],
 						"settings":
@@ -1180,92 +1168,18 @@
 				},
 				{
 					"buffer": 12,
-					"file": "modules/_header.scss",
-					"settings":
-					{
-						"buffer_size": 1838,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1534,
-								1534
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 648.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 13,
 					"file": "modules/_aside.scss",
 					"settings":
 					{
-						"buffer_size": 596,
+						"buffer_size": 643,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								555,
-								491
+								461,
+								461
 							]
 						],
 						"settings":

@@ -20,6 +20,9 @@
 			width: 32%;
 		}
 	}
+	@include responsive(sm) {
+		display: none;
+	}
 }
 
 .aside {

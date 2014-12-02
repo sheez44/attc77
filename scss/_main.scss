@@ -66,9 +66,6 @@ body {
 	border: $border-default-black;
 	margin-left: $margin-botsection-default-lg;
 	background: desaturate(rgba($color-primary, 0.2), 80%);
-	h3 {
-		text-align: center;
-	}
 	&--contact {
 		width: 36%;
 		margin-right: $margin-botsection-default-lg;
@@ -82,12 +79,24 @@ body {
 		img {
 			max-width: 100%;
 		}
+		@include responsive(sm) {
+			margin: 3% 0 0 4%;
+		}
 	}
 	&--downloads {
 		@extend %panel-list;
 		@include responsive(md) {
 			width: 46%; // not DRY
 			margin-right: $margin-botsection-default-lg;
+		}
+		@include responsive(sm) {
+			width: 67%;
+			margin: 0 auto;
+			height: 414px;
+			float: none;
+		}
+		h3 {
+			text-align: center;
 		}
 	}
 }
@@ -96,6 +105,9 @@ body {
 	@include responsive(md) {
 		width: 46%; // not DRY
 		margin-left: $margin-botsection-default-lg;
+	}
+	@include responsive(sm) {
+		display: none;
 	}
 }
 

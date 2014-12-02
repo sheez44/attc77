@@ -9,8 +9,11 @@
     overflow: hidden;
     &:hover {
       cursor: pointer;
-    }    
+    }
   }
+  @include responsive(sm) {
+    width: 98%;
+  }      
 }
 .news {
   border: $border-default;
@@ -24,6 +27,9 @@
   	@include padding(left, 12px);
   	@include padding(bottom, 10px);
   	float: right;
+    @include responsive(md) {
+      display: none;
+    }
   }
 }
 
