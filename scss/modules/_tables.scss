@@ -1,0 +1,68 @@
+// ==========================================================================
+// Tables and Frames
+// ==========================================================================
+
+
+table.compTeam { 
+	width: 580px;
+	background-color: $color-primary;
+	border: 1px #000000 solid;
+	border-collapse: collapse;
+	border-spacing: 0px; 
+	position: relative;
+	float: left;
+	margin: 0 2% 2% 2%;
+}
+
+
+td.teamName { 
+	background-color: $color-primary;
+	border: 1px #000000 solid;
+	font-family: $font-family--primary;
+	font-weight: bold;
+	font-size: 16px;
+	color: $black; 
+	padding: 8px;
+}
+
+td.league {
+	text-align: center;
+	font-weight: bold;
+}
+
+td.player { 
+	border-bottom: 1px #6699CC dotted;
+	text-align: left;
+	font-family: Verdana, sans-serif, Arial;
+	font-weight: normal;
+	font-size: .7em;
+	color: #404040;
+	background-color: #fafafa;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 0px; 
+}
+
+.team_photo {
+	height: 92px;
+	width: 196px;
+	position: absolute;
+	right: 7px;
+	bottom: 7px;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.wrapper {
+	@extend %clearfix;
+}
+
+// Iframe
+
+#nttb-site {
+	width: 96%;
+	margin-left: 2%;
+	height: 425px;
+}

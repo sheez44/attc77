@@ -111,6 +111,94 @@ body {
 	}
 }
 
-footer {
+.contact {
+	padding: 2% 0 4% 37%;
+	background-color: scale-lightness(complement($bgcolor-light), -19%);
+	border-top: $border-default;
+	@extend %clearfix;
+	&--image {
+		max-width: 100%;
+		float: left;
+	}
+	&--info {
+		float: left;
+	}
+}
 
+.leden {
+	padding: 2% 0 3% 0;
+	border-top: $border-default;
+	@include display-flex;
+	@include justify-content(space-around);
+	background-color: $bgcolor-light;
+	&--image {
+		margin-top: 6%;
+	}
+}
+
+
+.locatie {
+	border-top: $border-default;
+	@extend %clearfix;
+	@include display-flex;
+	padding: 2% 5% 3% 5%;
+	@include justify-content(space-around);
+}
+
+.locatie--sponsor {
+	width: 30% !important;
+}
+
+.locatie--kantine {
+	width: 55% !important;
+}
+
+.bestuur-lockup {
+  border-top: $border-default;
+  border-bottom: $border-default;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  background: scale-lightness(grayscale($color-primary), 50%);
+  text-align: center;
+  .bestuur {
+    background: rgba(0,139,227,0.90);
+    color: #000;
+    width: 37%;
+    height: 175px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 1px #888999;
+    padding: 15px;
+    position: relative;
+    display: inline-block;
+    margin: 0.8%;
+    .bestuur_status {
+      font-weight: bold;      
+      p:first-child {
+        margin-bottom: 0;
+        font-size: 163%;
+        margin-top: 0.3rem;
+      }
+      p:last-child {
+        margin-top: 0;
+        color: white;
+        letter-spacing: 0.05em;
+        font-size: 130%;
+      }
+      
+    }
+    .bestuur_info {
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      text-align: left;
+      p:last-child {
+        margin-bottom: 0;
+      }
+    }
+    img {
+      border-radius: 50%;
+      border: 1px solid white;
+      float: right;
+    }
+  }
 }

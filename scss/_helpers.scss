@@ -83,9 +83,24 @@
   }
 }
 
+%vertical-align {
+  position: relative;
+  top: 50%;
+  @include translateY(-50%);
+}
+
 /***********************
  *  Helper classes
  **********************/
+.clear {
+  clear: both;
+}
+
+.views-title {
+  text-align: center;
+  @include adjust-font-size-to(32px);
+  @include adjust-leading-to(1, 32px);
+}
 
 .maxHeight {
   height: 100% !important;
@@ -93,4 +108,12 @@
 
 .menuHeight {
   height: 19em;
+}
+
+.hidden {
+  display: none;
+}
+
+.img-responsive {
+  max-width: 100%;
 }

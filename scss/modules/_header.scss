@@ -3,7 +3,7 @@
 // ==========================================================================
 
 header {	
-	@include background(radial-gradient(rgba(darken($sps-blue, 30%), 1), #1b2225));
+	@include background(radial-gradient(center, rgba(darken($sps-blue, 30%), 1), #1b2225));
 	padding: 0 4.5em;
 	@include side-border(bottom, $white);
 	@extend %clearfix;

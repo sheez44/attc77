@@ -1,0 +1,35 @@
+.photo-albums {
+	// @include display-flex;
+	// @include justify-content(space-between);
+	// @include flex-wrap(wrap);
+	// @include align-items(flex-start);
+	width: 96%;
+	margin-left: 2%;
+	&--preview {
+		height: 31%;
+		width: 31%;		
+		margin: 0 1% 2%;
+		padding: 1% 1% 0 1%;
+		border: $border-default-black;
+		display: inline-block;
+		img {
+			max-width: 100%;
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+	&__subtitle {
+		text-align: center;
+		padding-bottom: 4px;
+	}
+}
+
+.gallery {
+	margin: 0 auto;
+	width: 75%;
+	img {
+		height: 144px;
+		width: 15%;
+	}
+}
