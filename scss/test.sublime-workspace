@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"table",
+				"table-competetie"
+			],
+			[
 				"margin",
 				"margin-side-md"
 			],
@@ -43,15 +47,7 @@
 			"file": "/C/Users/johan/Desktop/test/index.html",
 			"settings":
 			{
-				"buffer_size": 13567,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "modules/_buttons.scss",
-			"settings":
-			{
-				"buffer_size": 630,
+				"buffer_size": 13353,
 				"line_ending": "Windows"
 			}
 		},
@@ -83,7 +79,7 @@
 			"file": "/C/Users/johan/Desktop/test/config.rb",
 			"settings":
 			{
-				"buffer_size": 885,
+				"buffer_size": 888,
 				"line_ending": "Windows"
 			}
 		},
@@ -91,7 +87,7 @@
 			"file": "/C/Users/johan/Desktop/test/views/album_links/vrijwilligersdag2013.html",
 			"settings":
 			{
-				"buffer_size": 6184,
+				"buffer_size": 6040,
 				"line_ending": "Windows"
 			}
 		},
@@ -99,7 +95,7 @@
 			"file": "/C/Users/johan/Desktop/test/views/algemene-informatie.html",
 			"settings":
 			{
-				"buffer_size": 8162,
+				"buffer_size": 7945,
 				"line_ending": "Windows"
 			}
 		},
@@ -107,7 +103,7 @@
 			"file": "/C/Users/johan/Desktop/test/views/competitie.html",
 			"settings":
 			{
-				"buffer_size": 6808,
+				"buffer_size": 6545,
 				"line_ending": "Windows"
 			}
 		},
@@ -115,7 +111,15 @@
 			"file": "/C/Users/johan/Desktop/test/views/fotos.html",
 			"settings":
 			{
-				"buffer_size": 3440,
+				"buffer_size": 3066,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/johan/Desktop/test/js/script.js",
+			"settings":
+			{
+				"buffer_size": 1893,
 				"line_ending": "Windows"
 			}
 		},
@@ -131,7 +135,7 @@
 			"file": "modules/_tables.scss",
 			"settings":
 			{
-				"buffer_size": 1145,
+				"buffer_size": 1250,
 				"line_ending": "Windows"
 			}
 		},
@@ -160,10 +164,7 @@
 			}
 		},
 		{
-			"contents": "",
 			"file": "modules/_albums",
-			"file_size": -1,
-			"file_write_time": -1,
 			"settings":
 			{
 				"buffer_size": 0,
@@ -223,6 +224,15 @@
 	},
 	"file_history":
 	[
+		"/C/Users/johan/Desktop/test/css/iconize.css",
+		"/C/Users/johan/Desktop/test/scss/vendor/_index.scss",
+		"/C/Users/johan/Desktop/test/css/application.css",
+		"/C/Users/johan/Desktop/test/scss/application.scss",
+		"/C/Users/johan/Desktop/test/scss/vendor/_font_awesome.scss",
+		"/C/Users/johan/Desktop/test/scss/vendor/font-awesome.min.css",
+		"/C/Users/johan/Desktop/test/views/fotos.html",
+		"/C/Users/johan/Desktop/test/scss/modules/_buttons.scss",
+		"/C/Users/johan/Desktop/test/.htaccess",
 		"/C/Users/johan/Desktop/test/views/album_links/vrijwilligersdag2013.html",
 		"/C/Users/johan/Desktop/test/scss/modules/_index.scss",
 		"/C/Users/johan/Desktop/test/views/algemene-informatie.html",
@@ -230,7 +240,6 @@
 		"/C/Users/johan/Desktop/test/scss/modules/_albums",
 		"/C/Users/johan/Desktop/test/views/gastenboek.html",
 		"/C/Users/johan/Desktop/test/views/competitie.html",
-		"/C/Users/johan/Desktop/test/scss/application.scss",
 		"/C/Users/johan/Desktop/test/scss/modules/_footer.scss",
 		"/C/Users/johan/Desktop/test/scss/modules/_aside.scss",
 		"/C/Users/johan/Desktop/test/scss/modules/_nav.scss",
@@ -243,7 +252,6 @@
 		"/C/Users/johan/Desktop/test/scss/modules/_test.scss",
 		"/C/Users/johan/Desktop/test/_new.scss",
 		"/C/Users/johan/Desktop/test/hallo.css",
-		"/C/Users/johan/Desktop/test/css/application.css",
 		"/C/Users/johan/Desktop/test/img/informatie/google_maps.png",
 		"/C/Users/johan/Desktop/test/scss/modules/_tabs.scss",
 		"/C/Users/johan/Desktop/test/scss/_helpers.scss",
@@ -253,7 +261,6 @@
 		"/C/Users/johan/Desktop/test/scss/_main.scss",
 		"/C/Users/johan/Desktop/test/scss/_base.scss",
 		"/C/Users/johan/Desktop/shirts4mike.sql",
-		"/C/Users/johan/Desktop/test/scss/vendor/_index.scss",
 		"/C/Users/johan/Desktop/test/scss/vendor/footable.scss",
 		"/C/Users/johan/Desktop/test/scss/vendor/footable_theme.css",
 		"/C/Users/johan/Desktop/test/test/config.rb"
@@ -274,6 +281,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fred",
+			"http://www.kilifikids.org/wp-content/uploads/2014/10/placeholder-Copy-4.png",
+			"album_links",
+			"http://www.wallpaperfo.com/thumbnails/detail/20120628/sports%20feet%20soccer%20spain%20national%20football%20team%203932x2568%20wallpaper_www.wallpaperfo.com_16.jpg",
+			"icons",
+			"news__header",
 			"btn",
 			"a class=",
 			"class",
@@ -317,7 +330,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -325,15 +338,15 @@
 					"file": "/C/Users/johan/Desktop/test/index.html",
 					"settings":
 					{
-						"buffer_size": 13567,
+						"buffer_size": 13353,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13167,
-								13167
+								1585,
+								1585
 							]
 						],
 						"settings":
@@ -391,89 +404,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5231.0,
+						"translation.y": 1885.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "modules/_buttons.scss",
-					"settings":
-					{
-						"buffer_size": 630,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								624,
-								624
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"_anf_new": "",
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "_config.scss",
 					"settings":
 					{
@@ -547,7 +484,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "_helpers.scss",
 					"settings":
 					{
@@ -623,7 +560,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "modules/_tabs.scss",
 					"settings":
 					{
@@ -699,19 +636,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "/C/Users/johan/Desktop/test/config.rb",
 					"settings":
 					{
-						"buffer_size": 885,
+						"buffer_size": 888,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								349,
-								349
+								888,
+								888
 							]
 						],
 						"settings":
@@ -773,19 +710,95 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "/C/Users/johan/Desktop/test/views/album_links/vrijwilligersdag2013.html",
 					"settings":
 					{
-						"buffer_size": 6184,
+						"buffer_size": 6040,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5724,
-								5724
+								402,
+								402
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/johan/Desktop/test/views/algemene-informatie.html",
+					"settings":
+					{
+						"buffer_size": 7945,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								399,
+								399
 							]
 						],
 						"settings":
@@ -850,18 +863,18 @@
 				},
 				{
 					"buffer": 7,
-					"file": "/C/Users/johan/Desktop/test/views/algemene-informatie.html",
+					"file": "/C/Users/johan/Desktop/test/views/competitie.html",
 					"settings":
 					{
-						"buffer_size": 8162,
+						"buffer_size": 6545,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7496,
-								7496
+								4041,
+								4041
 							]
 						],
 						"settings":
@@ -919,25 +932,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4806.0,
+						"translation.y": 1728.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "/C/Users/johan/Desktop/test/views/competitie.html",
+					"file": "/C/Users/johan/Desktop/test/views/fotos.html",
 					"settings":
 					{
-						"buffer_size": 6808,
+						"buffer_size": 3066,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6790,
-								6790
+								582,
+								583
 							]
 						],
 						"settings":
@@ -995,7 +1008,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2989.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1003,29 +1016,28 @@
 			]
 		},
 		{
-			"selected": 7,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 9,
-					"file": "/C/Users/johan/Desktop/test/views/fotos.html",
+					"file": "/C/Users/johan/Desktop/test/js/script.js",
 					"settings":
 					{
-						"buffer_size": 3440,
+						"buffer_size": 1893,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2998,
-								2998
+								1868,
+								1868
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
-							"_anf_new": "",
 							"bh_regions":
 							[
 								"bh_regex",
@@ -1073,12 +1085,12 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1188.0,
+						"translation.y": 810.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1095,8 +1107,8 @@
 						"selection":
 						[
 							[
-								3411,
-								3411
+								2065,
+								2065
 							]
 						],
 						"settings":
@@ -1153,7 +1165,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2776.0,
+						"translation.y": 940.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1163,15 +1175,15 @@
 					"file": "modules/_tables.scss",
 					"settings":
 					{
-						"buffer_size": 1145,
+						"buffer_size": 1250,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								176,
-								0
+								875,
+								875
 							]
 						],
 						"settings":
@@ -1228,7 +1240,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 702.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1245,8 +1257,8 @@
 						"selection":
 						[
 							[
-								995,
-								995
+								1242,
+								1242
 							]
 						],
 						"settings":
@@ -1303,7 +1315,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 162.0,
+						"translation.y": 324.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1545,8 +1557,8 @@
 						"selection":
 						[
 							[
-								1905,
-								1905
+								1178,
+								1160
 							]
 						],
 						"settings":
@@ -1604,7 +1616,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 792.0,
+						"translation.y": 144.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

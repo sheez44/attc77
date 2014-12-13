@@ -64,4 +64,12 @@ $(document).ready(function() {
 
     }
   });
+
+  var $dlinks = $(".bottom__section--downloads").find('li');
+
+  $dlinks.on('click', function(e) {
+    e.preventDefault();
+    var message = $(this).text();
+    alert(message + " is nog niet geüpload. Hier wordt aan gewerkt");
+  });
 });
