@@ -5,6 +5,13 @@
 	// @include align-items(flex-start);
 	width: 96%;
 	margin-left: 2%;
+	@include responsive(md) {
+		width: 99%;
+	}
+	@include responsive(sm) {
+		margin: 0;
+		width: 100%;
+	}	
 	&--preview {
 		height: 31%;
 		width: 31%;		
@@ -12,6 +19,19 @@
 		padding: 1% 1% 0 1%;
 		border: $border-default-black;
 		display: inline-block;
+		@include responsive(md) {
+			width: 46%;
+			margin-bottom: 3%;
+		}
+		@include responsive(sm) {
+			width: 75%;
+			margin-bottom: 3%;
+			display: block;
+			margin: 0 auto 1em;
+		}
+		@include responsive(xs) {
+			width: 96%;
+		}		
 		img {
 			max-width: 100%;
 			&:hover {

@@ -14,10 +14,11 @@
 // Mixins
 
 @mixin responsive($device) {
+	@if $device == "xs" {
+		@media screen and (max-width: $mq-xs) { @content; } // $mq-small: 480px;
+	}
 	@if $device == "sm" {
 		@media screen and (max-width: $mq-small) { @content; } // $mq-small: 480px;
-
-
 	}
 	@if $device == "md" {
 		@media screen and (max-width: $mq-medium) { @content; } // $mq-medium: 768px;

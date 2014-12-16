@@ -100,6 +100,14 @@
   text-align: center;
   @include adjust-font-size-to(32px);
   @include adjust-leading-to(1, 32px);
+  @include responsive (sm) {
+    @include adjust-font-size-to(22px);
+    @include adjust-leading-to(1, 22px);
+  }
+  @include responsive(xs) {
+    @include adjust-font-size-to(15px);
+    @include adjust-leading-to(1, 15px);    
+  }
 }
 
 .maxHeight {
@@ -123,4 +131,12 @@
   width: image-width('Site-under-construction.gif');
   height: image-height('Site-under-construction.gif');
   margin: 3em auto;
+}
+
+.mute-link {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    color: $sps-blue;
+  }
 }

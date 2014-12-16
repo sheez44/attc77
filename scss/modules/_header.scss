@@ -8,7 +8,7 @@ header {
 	@include side-border(bottom, $white);
 	@extend %clearfix;
 	@include heights(10rem);
-	@include responsive(1100px) {
+	@include responsive(1150px) {
 		height: 10rem;
 		line-height: 5em;
 		padding: 0 0.5em;
@@ -23,7 +23,7 @@ header {
 		text-shadow: 3px 3px 1px darken($color-primary, 40%);
 		font-family: $font-family--secondary;
 		color: $white;
-		@include responsive(1100px) {
+		@include responsive(1150px) {
 			float: none;
 			padding-top: 1em;
 		}

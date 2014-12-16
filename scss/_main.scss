@@ -116,12 +116,29 @@ body {
 	background-color: scale-lightness(complement($bgcolor-light), -19%);
 	border-top: $border-default;
 	@extend %clearfix;
+	@include responsive(md) {
+		padding-left: 29%;
+	}
+	@include responsive(sm) {
+		padding: 0 0 0 12%;
+	}
+	@include responsive(xs) {
+		padding-left: 20%;
+	}
 	&--image {
 		max-width: 100%;
 		float: left;
+		@include responsive(xs) {
+			display: none;
+		}
 	}
 	&--info {
 		float: left;
+		h2 {
+			@include responsive(xs) {
+				text-align: center;
+			}
+		}
 	}
 }
 
@@ -131,8 +148,16 @@ body {
 	@include display-flex;
 	@include justify-content(space-around);
 	background-color: $bgcolor-light;
+	@include responsive(md) {
+		@include flex-direction(column);
+		padding: 0 3% 3%;
+		text-align: center;
+	}
 	&--image {
 		margin-top: 6%;
+		@include responsive(md) {
+			display: none;
+		}
 	}
 }
 
@@ -143,14 +168,26 @@ body {
 	@include display-flex;
 	padding: 2% 5% 3% 5%;
 	@include justify-content(space-around);
+	@include responsive(md) {
+		@include flex-direction(column);
+		padding: 0 3% 3%;
+		text-align: center;
+	}
 }
 
+
 .locatie--sponsor {
-	width: 30% !important;
+	width: 30%;
+	@include responsive(md) {
+		width: 96%;
+	}
 }
 
 .locatie--kantine {
-	width: 55% !important;
+	width: 55%;
+	@include responsive(md) {
+		width: 96%;
+	}
 }
 
 .bestuur-lockup {
@@ -171,18 +208,41 @@ body {
     position: relative;
     display: inline-block;
     margin: 0.8%;
+    @include responsive (md) {
+    	display: block;
+    	margin: 0 auto 1em;
+    	width: 62%;
+    }
+    @include responsive(656px) {
+    	width: 75%;
+    }
+    @include responsive(540px) {
+    	width: 85%;
+    }
+    @include responsive(489px) {
+    	width: 96%;
+    	padding: 11px;
+    }
     .bestuur_status {
       font-weight: bold;      
       p:first-child {
         margin-bottom: 0;
         font-size: 163%;
         margin-top: 0.3rem;
+        @include responsive(xs) {
+        	font-size: 100%;
+        	font-weight: normal;
+        }
       }
       p:last-child {
         margin-top: 0;
         color: white;
         letter-spacing: 0.05em;
         font-size: 130%;
+        @include responsive(xs) {
+        	font-size: 100%;
+        	font-weight: normal;
+        }
       }
       
     }

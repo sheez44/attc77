@@ -24,6 +24,18 @@ table.compTeam {
 	position: relative;
 	float: left;
 	margin: 0 2% 2% 2%;
+	@include responsive(md) {
+		width: 61%;
+		float: none;
+		margin: 2em auto;
+	}
+	@include responsive(sm) {
+		width: 88%;
+	}
+	@include responsive(xs) {
+		width: 96%;
+		margin: 1em auto;
+	}
 }
 
 
@@ -36,6 +48,9 @@ td.teamName {
 	color: $black; 
 	padding: 8px;
 	width: 70%;
+	@include responsive(sm) {
+		width: 42%;
+	}
 }
 
 td.league {
@@ -51,6 +66,9 @@ td.player {
 td.bondsnummer { 
 	@extend %table-competitie;
 	width: 16%;
+	@include responsive(sm) {
+		width: 22%;
+	}
 }
 
 .team_photo {
@@ -61,6 +79,9 @@ td.bondsnummer {
 	bottom: 7px;
 	&:hover {
 		cursor: pointer;
+	}
+	@include responsive(sm) {
+		display: none;
 	}
 }
 
@@ -74,4 +95,7 @@ td.bondsnummer {
 	width: 96%;
 	margin-left: 2%;
 	height: 425px;
+	@include responsive (md) {
+		display: none;
+	}
 }
