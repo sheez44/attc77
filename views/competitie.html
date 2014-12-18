@@ -8,8 +8,9 @@
   <meta name="description" content="ATTC'77 is een tafeltennisvereniging uit Aarle-Rixtel.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" type="text/css" href="../css/application.css">
 
+  <!-- <link rel="stylesheet" href="../css/vendor/magnific-popup.css"> -->
+  <link rel="stylesheet" type="text/css" href="../css/application.css">
 </head>
 
 <body>
@@ -47,7 +48,7 @@
     <table class="compTeam" cellspacing="0">
       <tr>
         <td class="teamName" colspan="2">Team 1</td>
-        <td class="league" colspan="1">Hoofdklasse <img class="team_photo" src="../img/informatie/team.jpg" alt="team photo"></td>
+        <td class="league" colspan="1">Hoofdklasse <a class="image" href="#"><img class="imageLink team_photo" src="../img/informatie/team.jpg" alt="team photo"></a></td>
       </tr>
       <tr>
         <td class="player">W. Vlamings</td>
@@ -181,9 +182,15 @@
         <td class="bondsnummer">3553167</td>
       </tr>       
     </table>
-    
 
-    <iframe id="nttb-site" src="http://nttb-zuidwest.nl/index.php?&page=Competitie&type=1"></iframe>
+    <div class="competitie__info">
+      <p> Voor de meest actuele standen en percentages:
+      <a target="_blank" href="http://nttb-zuidwest.nl/index.php?&page=Competitie&type=1">nttb-zuidwest</a>
+      </p>
+      <p> Voor meer tafeltennis statistieken:
+      <a target="_blank" href="http://ttkaart.nl/">ttkaart.nl</a>
+      </p>
+    </div>
 
     <!-- END OF BOT SECTION -->
     <footer class="clear">
@@ -192,8 +199,18 @@
     <!-- END OF WRAPPER -->
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/footable.js"></script>
+<!--   <script src="../js/jquery.magnific-popup.min.js"></script>
+
+  <script>
+    $('.image').magnificPopup({
+      type: 'image',
+      closeOnContentClick: true,
+      image: {
+        verticalFit: true
+      }
+    });
+  </script> -->
+
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -204,6 +221,7 @@
     ga('send', 'pageview');
 
   </script>
+
 </body>
 
 </html>

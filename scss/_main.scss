@@ -102,6 +102,9 @@ body {
 }
 
 .clubblad {  // need to fix name to BEM (bottom__section--clubblad)
+	&__image {
+		max-width: 84% !important;
+	}
 	@include responsive(md) {
 		width: 46%; // not DRY
 		margin-left: $margin-botsection-default-lg;
@@ -261,4 +264,16 @@ body {
       float: right;
     }
   }
+}
+
+.competitie__info {
+	background: $bgcolor-light;
+	margin: 0;
+	clear: both;
+	width: 80%;
+	padding: 1% 0;
+	text-align: center;
+	a[href]:visited {
+		color: black;
+	}
 }

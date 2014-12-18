@@ -108,11 +108,6 @@ a[href$='.ttf'] {
 	background: transparent url(../icon/icon_ttf.gif) no-repeat center right;
 }
 
-a[href$='.jpg'], a[href$='.gif'], a[href$='.png'], a[href$='.bmp'], a[href$='.jpeg'], a[href$='.svg'], a[href$='.eps'] { 
-	padding: 5px 20px 5px 0;
-	background: transparent url(../icon/icon_pic.gif) no-repeat center right;
-}
-
 a[href$='.mov'], a[href$='.wmv'], a[href$='.mp4'], a[href$='.avi'], a[href$='.mpg'] { 
 	padding: 5px 20px 5px 0;
 	background: transparent url(../icon/icon_film.gif) no-repeat center right;

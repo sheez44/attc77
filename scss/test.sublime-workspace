@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"res",
+				"responsive-small-title"
+			],
+			[
+				"flex",
+				"flex-responsive"
+			],
+			[
 				"table",
 				"table-competetie"
 			],
@@ -47,7 +55,7 @@
 			"file": "/C/Users/johan/Desktop/test/index.html",
 			"settings":
 			{
-				"buffer_size": 13423,
+				"buffer_size": 13471,
 				"line_ending": "Windows"
 			}
 		},
@@ -95,7 +103,7 @@
 			"file": "/C/Users/johan/Desktop/test/views/algemene-informatie.html",
 			"settings":
 			{
-				"buffer_size": 8015,
+				"buffer_size": 8083,
 				"line_ending": "Windows"
 			}
 		},
@@ -103,7 +111,7 @@
 			"file": "/C/Users/johan/Desktop/test/views/competitie.html",
 			"settings":
 			{
-				"buffer_size": 6615,
+				"buffer_size": 7126,
 				"line_ending": "Windows"
 			}
 		},
@@ -111,7 +119,7 @@
 			"file": "/C/Users/johan/Desktop/test/views/fotos.html",
 			"settings":
 			{
-				"buffer_size": 3136,
+				"buffer_size": 3135,
 				"line_ending": "Windows"
 			}
 		},
@@ -119,7 +127,7 @@
 			"file": "_main.scss",
 			"settings":
 			{
-				"buffer_size": 3986,
+				"buffer_size": 5287,
 				"line_ending": "Windows"
 			}
 		},
@@ -137,6 +145,22 @@
 			{
 				"buffer_size": 1302,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vendor/_iconize.scss",
+			"settings":
+			{
+				"buffer_size": 4780,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/johan/Desktop/test/js/jquery.magnific-popup.min.js",
+			"settings":
+			{
+				"buffer_size": 20932,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -167,18 +191,7 @@
 			"file": "modules/_albums.scss",
 			"settings":
 			{
-				"buffer_size": 647,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "",
-			"file": "/C/Users/johan/AppData/Local/Temp/Rar$DRa0.049/fancyapps-fancyBox-18d1712/README.md",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 888,
 				"line_ending": "Windows"
 			}
 		},
@@ -243,6 +256,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/johan/AppData/Local/Temp/Rar$DRa0.049/fancyapps-fancyBox-18d1712/README.md",
+		"/C/Users/johan/AppData/Local/Temp/Rar$DRa0.192/elevatezoom-master/demo.html",
 		"/C/Users/johan/Desktop/test/scss/modules/_albums",
 		"/C/Users/johan/Desktop/test/.sass-cache/0c9f64cf23c0b6cf21edad963282a967de5e7e91/application.scssc",
 		"/C/Users/johan/Desktop/test/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/c%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/typography/_text.scssc",
@@ -302,6 +317,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"jpg",
+			"p",
+			"dsc",
+			"dsc06275",
+			"sc",
+			"dsc06276",
+			"contact",
 			"1150px",
 			"1100",
 			"fred",
@@ -361,15 +383,15 @@
 					"file": "/C/Users/johan/Desktop/test/index.html",
 					"settings":
 					{
-						"buffer_size": 13423,
+						"buffer_size": 13471,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12228,
-								12228
+								13203,
+								13203
 							]
 						],
 						"settings":
@@ -427,7 +449,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4929.0,
+						"translation.y": 4738.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -444,8 +466,8 @@
 						"selection":
 						[
 							[
-								1214,
-								1214
+								1301,
+								1281
 							]
 						],
 						"settings":
@@ -577,7 +599,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 216.0,
+						"translation.y": 1350.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -744,8 +766,8 @@
 						"selection":
 						[
 							[
-								4548,
-								4548
+								2084,
+								2084
 							]
 						],
 						"settings":
@@ -803,7 +825,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1782.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -813,15 +835,15 @@
 					"file": "/C/Users/johan/Desktop/test/views/algemene-informatie.html",
 					"settings":
 					{
-						"buffer_size": 8015,
+						"buffer_size": 8083,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7349,
-								7349
+								659,
+								659
 							]
 						],
 						"settings":
@@ -879,7 +901,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4559.0,
+						"translation.y": 864.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -889,15 +911,15 @@
 					"file": "/C/Users/johan/Desktop/test/views/competitie.html",
 					"settings":
 					{
-						"buffer_size": 6615,
+						"buffer_size": 7126,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1181,
-								1181
+								6446,
+								6446
 							]
 						],
 						"settings":
@@ -955,7 +977,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 455.0,
+						"translation.y": 178.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -965,15 +987,19 @@
 					"file": "/C/Users/johan/Desktop/test/views/fotos.html",
 					"settings":
 					{
-						"buffer_size": 3136,
+						"buffer_size": 3135,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2512,
-								2512
+								1509,
+								1511
+							],
+							[
+								2566,
+								2568
 							]
 						],
 						"settings":
@@ -1031,7 +1057,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1175.0,
+						"translation.y": 648.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1041,7 +1067,7 @@
 					"file": "_main.scss",
 					"settings":
 					{
-						"buffer_size": 3986,
+						"buffer_size": 5287,
 						"regions":
 						{
 						},
@@ -1259,15 +1285,166 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "vendor/_iconize.scss",
+					"settings":
+					{
+						"buffer_size": 4780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3037,
+								3037
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1404.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Users/johan/Desktop/test/js/jquery.magnific-popup.min.js",
+					"settings":
+					{
+						"buffer_size": 20932,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20932,
+								20932
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 165787.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 7,
+			"selected": 4,
 			"sheets":
 			[
 				{
-					"buffer": 12,
+					"buffer": 14,
 					"file": "/C/Users/johan/Desktop/test/js/script.js",
 					"settings":
 					{
@@ -1347,15 +1524,15 @@
 					"file": "_main.scss",
 					"settings":
 					{
-						"buffer_size": 3986,
+						"buffer_size": 5287,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2065,
-								2065
+								5207,
+								5207
 							]
 						],
 						"settings":
@@ -1412,13 +1589,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 940.0,
+						"translation.y": 4294.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 15,
 					"file": "modules/_tables.scss",
 					"settings":
 					{
@@ -1493,7 +1670,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 16,
 					"file": "modules/_header.scss",
 					"settings":
 					{
@@ -1568,19 +1745,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 17,
 					"file": "modules/_albums.scss",
 					"settings":
 					{
-						"buffer_size": 647,
+						"buffer_size": 888,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								212,
-								212
+								844,
+								844
 							]
 						],
 						"settings":
@@ -1637,89 +1814,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 162.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 16,
-					"file": "/C/Users/johan/AppData/Local/Temp/Rar$DRa0.049/fancyapps-fancyBox-18d1712/README.md",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 17,
+					"buffer": 18,
 					"file": "/C/Users/johan/Desktop/test/views/gastenboek.html",
 					"settings":
 					{
@@ -1806,8 +1907,8 @@
 						"selection":
 						[
 							[
-								1381,
-								1299
+								1530,
+								1530
 							]
 						],
 						"settings":
@@ -1871,7 +1972,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 19,
 					"file": "application.scss",
 					"settings":
 					{
@@ -1996,6 +2097,30 @@
 		"selected_items":
 		[
 			[
+				"v",
+				"views/album_links/vrijwilligersdag2013.html"
+			],
+			[
+				"compe",
+				"views/competitie.html"
+			],
+			[
+				"help",
+				"scss/_helpers.scss"
+			],
+			[
+				"fotos",
+				"views/fotos.html"
+			],
+			[
+				"competi",
+				"views/competitie.html"
+			],
+			[
+				"albums",
+				"scss/modules/_albums.scss"
+			],
+			[
 				"_album",
 				"scss/modules/_albums"
 			],
@@ -2030,10 +2155,6 @@
 			[
 				"main",
 				"scss/_main.scss"
-			],
-			[
-				"help",
-				"scss/_helpers.scss"
 			]
 		],
 		"width": 0.0
