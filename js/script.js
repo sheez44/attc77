@@ -65,11 +65,24 @@ $(document).ready(function() {
     }
   });
 
-  var $dlinks = $(".bottom__section--downloads").find('li');
+  $calendar = $('.aside__agenda');
+  $table = $calendar.find('table tbody');
 
-  $dlinks.on('click', function(e) {
-    e.preventDefault();
-    var message = $(this).text();
-    alert(message + " is nog niet geüpload. Hier wordt aan gewerkt");
+  $.getJSON('dates.json', function(data) {
+    drawTable(data);
   });
+
+  function drawTable(data) {
+    for (var i = 0; i < 5; i++) {
+      drawRow(data[i]);
+    }
+  }
+
+  function drawRow(rowData) {
+    var row = $("<tr />")
+    $("#agenda").prepend(row);
+    row.append($("<td>" + rowData.date + "</td>"));
+    row.append($("<td>" + rowData.activity + "</td>"));
+  }
+
 });

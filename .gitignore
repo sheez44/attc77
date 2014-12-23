@@ -35,6 +35,7 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+*.log
 
 Images
 
@@ -62,3 +63,10 @@ Audio
 *.wav
 *.mp3
 *.wma
+
+# maps #
+####################
+
+.sass-cache
+img
+node_modules

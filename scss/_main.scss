@@ -66,6 +66,10 @@ body {
 	border: $border-default-black;
 	margin-left: $margin-botsection-default-lg;
 	background: desaturate(rgba($color-primary, 0.2), 80%);
+	.flipper {
+		height: inherit;
+		width: inherit;
+	}
 	&--contact {
 		width: 36%;
 		margin-right: $margin-botsection-default-lg;
@@ -103,7 +107,7 @@ body {
 
 .clubblad {  // need to fix name to BEM (bottom__section--clubblad)
 	&__image {
-		max-width: 84% !important;
+		max-width: 74% !important;
 	}
 	@include responsive(md) {
 		width: 46%; // not DRY
