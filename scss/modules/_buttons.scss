@@ -29,3 +29,33 @@
 
 }
 
+#box    {  
+	width: 100%;
+	height: 100%;
+	@include box-shadow(inset 1px 1px 40px 0 rgba(0,0,0,.45));
+	background:url(../img/informatie/clubblad.png);
+	background-size:cover;
+	overflow:hidden;
+}
+	#overlay {  
+		background:rgba(0,0,0,.75);
+		text-align:center;
+		padding:45px 0 66px 0;
+		opacity:0;
+		height: inherit;
+		width: inherit;
+		position: relative;
+		line-height: 347px;
+		@include transition(opacity .45s ease);
+	}
+
+		#box:hover #overlay {
+			opacity:1;
+		}
+
+			#clubblad__download       {  
+				font-family: $font-family--primary;
+				font-weight: 900;
+				color: $coral;
+				font-size: 32px;
+			}

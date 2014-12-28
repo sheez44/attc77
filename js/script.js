@@ -65,9 +65,6 @@ $(document).ready(function() {
     }
   });
 
-  $calendar = $('.aside__agenda');
-  $table = $calendar.find('table tbody');
-
   $.getJSON('dates.json', function(data) {
     drawTable(data);
   });
@@ -86,3 +83,13 @@ $(document).ready(function() {
   }
 
 });
+
+(function() {
+  $clubblad = $('div#overlay');
+
+
+  $clubblad.on('click', function(e) {
+    e.preventDefault();
+    window.open("downloads/clubblad/november_2014.pdf", '_blank');
+  });
+})();

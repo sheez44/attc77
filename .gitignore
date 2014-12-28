@@ -35,7 +35,6 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-*.log
 
 Images
 
@@ -64,8 +63,6 @@ Audio
 *.mp3
 *.wma
 
-# maps #
-####################
 
 .sass-cache
 img
