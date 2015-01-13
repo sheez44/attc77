@@ -83,8 +83,8 @@ body {
 		img {
 			max-width: 100%;
 		}
-		@include responsive(sm) {
-			margin: 3% 0 0 4%;
+		@include responsive(xs) {
+			width: 96%;
 		}
 	}
 	&--downloads {
@@ -101,6 +101,9 @@ body {
 		}
 		h3 {
 			text-align: center;
+		}
+		@include responsive(xs) {
+			width: 93%;
 		}
 	}
 }
@@ -121,7 +124,6 @@ body {
 .contact {
 	padding: 2% 0 4% 37%;
 	background-color: scale-lightness(complement($bgcolor-light), -19%);
-	border-top: $border-default;
 	@extend %clearfix;
 	@include responsive(md) {
 		padding-left: 29%;

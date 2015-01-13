@@ -40,3 +40,10 @@
 .aside h2 {
 	text-align: center;
 }
+
+#agenda.footable {
+	@include responsive(sm) {
+		border: 0;
+		font-size: 0.93rem;
+	}
+}

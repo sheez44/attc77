@@ -61,6 +61,8 @@
   }
   @include responsive(sm) {
     width: 98%;
+    font-size: 15px;
+    color: #333;
   }
   .news-tab { // Single tabs
     @include responsive(md) {
@@ -84,9 +86,11 @@
     border-bottom: 0;
     color: #666;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     position: relative;
     letter-spacing: 0.03em;
+    overflow:hidden;
+    text-overflow: ellipsis;
     span {
       display: none;
     }

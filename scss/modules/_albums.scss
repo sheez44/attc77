@@ -48,8 +48,28 @@
 .gallery {
 	margin: 0 auto;
 	width: 75%;
+	@include responsive(lg) {
+		width: 88%;
+	}
+	@include responsive(sm) {
+		padding: 0;
+		width: 94%;
+	}
 	img {
 		height: 144px;
-		width: 15%;
+		width: 16%;
+		@include responsive(lg) {
+			width: 24%;
+		}
+		@include responsive(md) {
+			width: 32%;
+		}
+		@include responsive(sm) {
+			width: 49%;
+		}
+		@include responsive(xs) {
+			width: 100%;
+			height: auto;
+		}
 	}
 }

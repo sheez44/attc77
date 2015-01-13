@@ -67,3 +67,5 @@ Audio
 .sass-cache
 img
 node_modules
+*.sublime-project
+*.sublime-workspace

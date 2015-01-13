@@ -11,9 +11,9 @@ header {
 	@include responsive(1150px) {
 		height: 10rem;
 		line-height: 5em;
-		padding: 0 0.5em;
+		padding: 0;
 	}
-	@include responsive(sm) {
+	@include responsive(md) {
 		height: 8em;
 	}	
 	position: relative;
@@ -27,7 +27,7 @@ header {
 			float: none;
 			padding-top: 1em;
 		}
-		@include responsive(sm) {
+		@include responsive(780px) {
 			padding-top: 0;
 		}
 		h1 {
@@ -57,6 +57,9 @@ header {
 }
 
 .welcome--info {
+	@include responsive(865px) {
+		font-size: 1.7em;
+	}
 	@include responsive(md) {
 		font-size: 1.4em;
 		@include heights(68px);
