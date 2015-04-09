@@ -33,8 +33,9 @@
 	width: 100%;
 	height: 100%;
 	@include box-shadow(inset 1px 1px 40px 0 rgba(0,0,0,.45));
-	background:url(../img/informatie/clubblad.png);
+	background: #{$clubblad_image};
 	background-size:cover;
+	background-position-x: 54%;
 	overflow:hidden;
 }
 	#overlay {  

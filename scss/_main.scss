@@ -273,14 +273,22 @@ body {
 }
 
 .competitie__info {
+	@extend %clearfix;
 	background: $bgcolor-light;
-	margin: 0;
+	margin-left: 2%;
 	clear: both;
 	width: 80%;
-	padding: 1% 0;
-	text-align: center;
+	padding: 0;
+	text-align: left;
+	@include responsive(lg) {
+		width: 96%;
+		margin-right: 2%
+	}
 	a[href]:visited {
 		color: black;
+	}
+	p {
+		margin-left: 5%; 
 	}
 }
  
