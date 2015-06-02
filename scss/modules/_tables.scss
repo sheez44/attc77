@@ -22,7 +22,7 @@ table.compTeam {
 	border: 1px #000000 solid;
 	border-spacing: 1px; 
 	position: relative;
-	float: left;
+	display: inline-table;
 	margin: 0 2% 2% 2%;
 	@include responsive(md) {
 		width: 70%;
@@ -98,4 +98,8 @@ td.bondsnummer {
 	@include responsive (md) {
 		display: none;
 	}
+}
+
+.jeugd {
+	clear: both;
 }

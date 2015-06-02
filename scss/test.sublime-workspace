@@ -52,10 +52,13 @@
 	"buffers":
 	[
 		{
+			"contents": "<!DOCTYPE html>\n<html>\n\n<head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <title>Tafeltennisvereniging ATTC '77</title>\n  <meta name=\"description\" content=\"Dit is de officiele website van ATTC'77. ATTC'77 is een tafeltennisvereniging uit Aarle-Rixtel en speelt in de gymzaal aan de Jan van Rixtelstraat 30.\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"css/application.css\">\n</head>\n\n<body>\n  <div class=\"wrapper\">\n    <header>\n      <div class=\"header--logo\">\n        <h1>ATTC '77</h1>\n      </div>\n      <div class=\"menu\">\n        Menu<i class=\"fa fa-reorder fa-1x\"></i>\n      </div>\n      <nav>\n        <ul>\n          <li>\n            <a class=\"header__links\" href=\"#\">Home</a>\n          </li>\n          <li>\n            <a class=\"header__links\" href=\"views/competitie.html\">Competitie</a>\n          </li>\n          <li>\n            <a class=\"header__links\" href=\"views/fotos.html\">Foto's</a>\n          </li>\n          <li>\n            <a class=\"header__links\" href=\"views/algemene-informatie.html\">Algemene informatie</a>\n          </li>\n          <li>\n            <a class=\"header__links\" href=\"views/gastenboek.html\">Gastenboek</a>\n          </li>\n        </ul>\n      </nav>\n\n    </header>\n    <!-- END OF HEADER -->\n    <div class=\"header--background\"></div>\n    \n    <h1 class=\"welcome--info\">Welkom op de website van ATTC '77</h1>\n\n    <!-- END OF TOP SECTION -->\n<!--     <div class=\"news__container\"> -->\n      <h2 class=\"news__header\">Laatste nieuws: </h2>\n<!--       <p> Wij feliciteren ATTC'77 3 en jeugd 2 met het kampioenschap!</p>\n    </div> -->\n    \n  \n\n    <div class=\"container\">\n\n      <div class=\"news-tabs\">\n      <div id=\"ntab1\" rel=\"news1\" class=\"news-tab news-active\" >Spannende ontknoping van het tafeltennisseizoen<span class=\"fa fa-caret-down fa-1x\"></span></div>      \n      <div id=\"ntab2\" rel=\"news2\" class=\"news-tab\" >Voorlaatste competitiewedstrijd ATTC´77<span class=\"fa fa-caret-down fa-1x\"></span></div>       \n      <div id=\"ntab3\" rel=\"news3\" class=\"news-tab\" >Derde team ATTC’77 oppermachtig <span class=\"fa fa-caret-down fa-1x\"></span></div>      \n  \n    </div>\n\n    <article class=\"news active\" id=\"news1\">      \n      <h2 class=\"news__title\">Spannende ontknoping van het tafeltennisseizoen</h2>\n      <h5>Geschreven door: Frederieke van de Poel op 28-04-2015</h5>\n\n      <img class=\"news__image\" src=\"img/informatie/jeugd2_kampioen.jpg\" alt=\"tweede jeugdteam kampioen\">\n\n      <p>Voor het zesde seniorenteam was ook al lang bekend dat handhaving in de zesde klasse te hoog gegrepen was. Stephan Vergroesen, Tessa van den Boogaard, Jan van de Broek en Marcel van Klingeren konden ook in hun laatste wedstrijd niet tot scoren komen en keren weer terug naar de zevende klasse.</p>\n\n      <p>Deze keer deden met name Dennis en Werner het erg goed. Zij wonnen ieder twee wedstrijden! Bart speelde goed maar kon niet tot winnen komen. Na deze 6-4 nederlaag staan ze op de laatste plek net achter Unicum 2, tegen wie ze volgende week spelen in de laatste wedstrijd van dit seizoen.</p>\n\n      <p>Het derde jeugdteam en het eerste, tweede en vijfde seniorenteam draaiden het hele seizoen mee in de middenmoot en zijn derde, derde, tweede en vierde geworden. Voor het vierde team was het nog spannend. Zij moesten 7 punten halen om zich te handhaven in de vijfde klasse en Johan Heurter en Koos Martinali waren verhinderd. Thijs Smulders en Johnny van de Elzen gingen daarom met invaller Jeroen Doensen op pad naar Geldrop en niet onverdienstelijk. Na een hattrick van Thijs en Johnny en twee winstpartijen van Jeroen stonden er 8 punten op het scorebord en is het team gedeelde derde geworden.</p>\n\n      <p>Voor het eerste jeugdteam was er tegen concurrent Unicum 2 nog een kleine kans op handhaving in de J2 klasse. Hiervoor zouden Werner Doensen, Dennis van der Putten en Bart Willems met 7-3 moeten winnen. Helaas werd er met 6-4 verloren en spelen ze volgend seizoen een klasse lager.\n      </p>\n\n      <p>Voor het tweede jeugdteam was het super spannend tot de laatste wedstrijd. Niels Doensen, Harm Steenbakkers en Sander Bevers speelden op 25 april thuis tegen Unicum 4 uit Geldrop. Concurrent Flash speelde al om 11.00 uur dus voor de wedstrijd was bekend dat de jongens 8 punten nodig hadden om kampioen te worden. Het begon goed en ze stonden al gauw op een 5-0 voorsprong toen Sander verloor van Wendy Verhulst. De spanning was te snijden en de jongens werden steeds zenuwachtiger, wat het spel niet ten goede kwam. Harm verloor ook, 5-2. Maar ze pakten de draad weer op met winst voor Niels en Harm. En toen de allerlaatste wedstrijd, Sander tegen Suus Gimbel. Sander kwam 2-0 voor, maar Suus gaf niks weg en het werd 2-2. In de beslissende vijfde game won Sander nipt met 11-8, KAMPIOEN!</p>\n       \n        <div class=\"news--warning\">\n          <p>Klik op het artikel om verder te lezen</p>\n        </div>\n\n      </article>\n\n       <article class=\"news\" id=\"news2\">      \n      <h2 class=\"news__title\">Voorlaatste competitiewedstrijd ATTC´77</h2>\n      <h5>Geschreven door: Frederieke van de Poel op 21-04-2015</h5>\n\n      <p>Het eerste jeugdteam van tafeltennisvereniging ATTC´77 heeft het zwaar dit seizoen in de op één na hoogste klasse van de afdeling Zuidwest (Noord-Brabant en Zeeland). Op 18 april speelden Werner Doensen, Bart Willems en Dennis van der Putten thuis tegen koploper Valkenswaard 1, van wie ze in Valkenswaard nog met 10-0 verloren hadden.</p>\n\n      <p>Deze keer deden met name Dennis en Werner het erg goed. Zij wonnen ieder twee wedstrijden! Bart speelde goed maar kon niet tot winnen komen. Na deze 6-4 nederlaag staan ze op de laatste plek net achter Unicum 2, tegen wie ze volgende week spelen in de laatste wedstrijd van dit seizoen.</p>\n\n      <p>Bij het tweede jeugdteam is het ook erg spannend, maar daar gaat het om het kampioenschap. Harm Steenbakkers, Niels Doensen en Sander Bevers speelden deze week tegen Veldhoven 4. Alleen Anton Presura van Veldhoven was te sterk voor de jongens uit Aarle-Rixtel. Alle andere wedstrijden werden gewonnen zodat de totaalscore op 7-3 kwam. Concurrent Flash 4 won ook met 7-3 waardoor de achterstand twee punten blijft met nog één wedstrijd te gaan.</p>\n\n      <p>Het derde jeugdteam draait mooi mee in de middenmoot van de Starters S2 klasse. Ook zij speelden deze week tegen Valkenswaard. Michiel van Schaik was goed op dreef en won twee wedstrijden. Jasper van Veenendaal scoorde het derde punt. Liam Sangers, de enige speler van het team die dit seizoen geen enkele wedstrijd gemist heeft, bleef deze keer met lege handen. Ze staan nu op de derde plek, welke ze moeten kunnen behouden aangezien ze alleen nog tegen de nummer zes moeten spelen.\n      </p>\n\n      <p>Uitslagen senioren:</p>\n\n      <pre> \n      ATTC´77 1 – Budilia 1       6-4\n      ATTC´77 2 – Bergeijk 3      3-7\n      Valkenswaard 4 – ATTC´77 3  0-10\n      Veldhoven 12 – ATTC´77 4    6-4\n      ATTC´77 5 – Taveres 3       2-8\n      Veldhoven 16 – ATTC´77 6    8-2\n      </pre>\n\n        <div class=\"news--warning\">\n          <p>Klik op het artikel om verder te lezen</p>\n        </div>\n      </article>\n\n        <article class=\"news\" id=\"news3\">      \n        <h2 class=\"news__title\">Derde team ATTC’77 oppermachtig </h2>\n        <h5>Geplaatst door: Frederieke van de Poel op 07-04-2015</h5>\n\n        <p>Het eerste team van tafeltennisvereniging ATTC’77 had nog een appeltje te schillen met Taverbo/Sabo 2 uit Boxtel, waarvan de uitwedstrijd, weliswaar met invaller, met maar liefst 9-1 verloren werd. In de thuiswedstrijd was het team uit Aarle-Rixtel wel compleet. </p>\n\n        <p>Jean Paul Kanters begon goed met winst tegen Erik Magnus. Ook William Vlamings deed het verdienstelijk tegen Jos Heijmans. Bart Boetzkes kreeg helaas klop van Gijs Klop en ook het dubbel werd verloren zodat de Boxtelnaren weer langszij kwamen. William herstelde zich van de dubbel en  won van Magnus, waarna ook Jean Paul niet kon winnen van Klop. Vervolgens liepen de heren uit naar een 6-3 voorsprong toen Jean Paul in de laatste wedstrijd Heijmans tegen kwam. Het werd een spannende wedstrijd met mooie punten over en weer. De wedstrijd werd nipt verloren door Jean Paul. Door de 6-4 overwinning behoudt het team de derde plaats. </p>\n\n        <p>Dat het verschil tussen klassen onderling groot is, bewijst het derde team, dat vorig seizoen degradeerde uit de derde klas. Na zes wedstrijden en 15 punten voorsprong op de nummer 2 was  het deze week Flash 7 die de borst nat kon maken. Mark Rovers, Karel van der Putten en Jos Beniers lieten geen spaan heel van het team uit Eindhoven. Door de 10-0 overwinning is de voorsprong vergroot naar 19 punten en kunnen de slingers al bijna uit de kast worden gehaald.</p>\n\n        <p>Het vierde team staat vijfde in de vijfde klas en kreeg de nummer 4 MTTV’72 3 uit Mierlo op bezoek. Om bij te blijven en een degradatiewedstrijd te voorkomen, zou in het rechtstreekse duel gewonnen moeten worden. Het begon voortvarend met winst voor alle drie de spelers van ATTC. De dubbel werd helaas verloren, maar daarna pikten met name Johan Heurter en Johnny van de Elzen het weer op. Zij wonnen uiteindelijk al hun enkelwedstrijden. Thijs Smulders kwam nog wat te kort en wist alleen van Keith Saunders te winnen. In totaal werden 7 punten gehaald waardoor ze gelijk staan met Mierlo en op een te overbruggen afstand van Veldhoven. Dat biedt dus perspectief. \n        </p>\n\n        <p>Alle uitslagen:</p>\n\n        <pre> \n        ATTC’77 1 – Taverbo/Sabo 2  6-4 \n        Deurne 2 – ATTC’77 2        6-4 \n        ATTC’77 3 – Flash 7         10-0 \n        ATTC’77 4 – MTTV’72 3       7-3 \n        Flash 10 – ATTC’77 5        6-4 \n        Bergeijk 7 – ATTC’77 6      10-0 \n        Flash 4 – ATTC’77 jeugd2    8-2 \n        Budilia 2 – ATTC’77 jeugd3  7-3\n        </pre>\n\n        <div class=\"news--warning\">\n        <p>Klik op het artikel om verder te lezen</p>\n        </div>\n        </article>\n\n \n      </div> <!-- END OF Container -->\n\n      <aside class=\"aside\">\n        <div class=\"aside__sponsors\">\n          <h2>Sponsors</h2>\n          <div class=\"aside__sponsors--images\">\n            <a target=\"_blank\" href=\"http://spsys.nl/nl/\"><img src=\"img/informatie/sps-logo.jpg\" alt=\"sps logo\" /></a>\n            <a target=\"_blank\" href=\"http://www.sporteurope.nl/nl/1/home.aspx\"><img src=\"img/informatie/sporteurope-logo.png\" alt=\"Sport Europa\" /></a>\n            <a target=\"_blank\" href=\"https://www.rabobank.nl/particulieren/\"><img src=\"img/informatie/rabobank-logo.png\" alt=\"rabobank\" /></a>\n          </div>\n        </div>\n        <div class=\"aside__agenda\">\n          <h2>Agenda 2015</h2>\n          <table id=\"agenda\" class=\"footable table\">\n            <thead>\n              <tr>\n                <th>Datum:</th>\n                <th>Activiteit:</th>\n              </tr>\n            </thead>\n            <tbody>\n            </tbody>\n          </table>\n        </div> \n      </aside>  \n\n      <div class=\"bottom--container\">\n\n        <!-- CLUBBLAD -->\n        <div class=\"clubblad bottom__section\">\n          <div id=\"box\">\n\n            <div id=\"overlay\">\n              <a target=\"_blank\" href=\"downloads/clubblad/maart_2015.pdf\" id=\"clubblad__download\">Download</a>\n            </div>\n\n          </div>\n        </div>\n\n        <!-- DOWNLOADS -->\n        <div class=\"bottom__section bottom__section--downloads\">\n          <h3>Downloads</h3>\n\n        </div>\n\n        <!-- CONTACT -->\n        <div class=\"tab-panels bottom__section bottom__section--contact\">\n          <ul class=\"tabs\">\n            <li rel=\"panel1\" class=\"active\">Routebeschrijving</li>\n            <li rel=\"panel2\">Contact</li>\n          </ul>\n          <div id=\"panel1\" class=\"panel active\">\n            <a href=\"https://www.google.com/maps/place/kantine+ATTC+%27%2777/@51.507929,5.641242,16z/data=!4m2!3m1!1s0x0:0xccec4b04dc58b3e5?hl=en-US\"><img src=\"img/informatie/google_maps.png\" alt=\"google maps\"></a>\n          </div>\n          <div id=\"panel2\" class=\"panel contact\">\n            <h3>Contact</h3>\n            <p>Tafeltennishal ATTC '77</p>\n            <p>Jan van Rixtelstraat 30</p>\n            <p>5735 GA AARLE-RIXTEL</p>\n            <p>06-22176068</p>\n          </div>\n        </div>\n\n      </div>\n      <!-- END OF BOT SECTION -->\n      <footer>\n        <h5>&copy; <a class=\"mute-link\" target=\"_blank\" href=\"http://www.psy-dev.nl\">psy-dev.nl</a> (2014)</h5>\n      </footer>\n      <!-- END OF WRAPPER -->\n    </div>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js\"></script>\n    <script src=\"js/main.min.js\"></script>\n    <script src=\"js/footable.js\"></script>\n    <script type=\"text/javascript\">\n    $(function() {\n      $('.footable').footable();\n    });\n    </script>\n    <script>\n    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n\n    ga('create', 'UA-48558556-2', 'auto');\n    ga('send', 'pageview');\n\n    </script>\n  </body>\n\n  </html>\n",
 			"file": "/C/Users/johan/Desktop/test/index.html",
+			"file_size": 13548,
+			"file_write_time": 130747073983143612,
 			"settings":
 			{
-				"buffer_size": 13733,
+				"buffer_size": 13259,
 				"line_ending": "Windows"
 			}
 		},
@@ -63,7 +66,7 @@
 			"file": "/C/Users/johan/Desktop/test/test.html",
 			"settings":
 			{
-				"buffer_size": 2455,
+				"buffer_size": 0,
 				"line_ending": "Windows",
 				"name": "test.htm"
 			}
@@ -72,7 +75,7 @@
 			"file": "_main.scss",
 			"settings":
 			{
-				"buffer_size": 5439,
+				"buffer_size": 5551,
 				"line_ending": "Windows"
 			}
 		},
@@ -104,7 +107,7 @@
 			"file": "/C/Users/johan/Desktop/test/views/competitie.html",
 			"settings":
 			{
-				"buffer_size": 7393,
+				"buffer_size": 9889,
 				"line_ending": "Windows"
 			}
 		},
@@ -113,6 +116,22 @@
 			"settings":
 			{
 				"buffer_size": 3673,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/johan/Desktop/test/.gitignore",
+			"settings":
+			{
+				"buffer_size": 660,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "modules/_header.scss",
+			"settings":
+			{
+				"buffer_size": 2624,
 				"line_ending": "Windows"
 			}
 		}
@@ -242,6 +261,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Geplaatst",
 			"../",
 			"#box",
 			"box",
@@ -327,7 +347,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -335,23 +355,15 @@
 					"file": "/C/Users/johan/Desktop/test/index.html",
 					"settings":
 					{
-						"buffer_size": 13733,
+						"buffer_size": 13259,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2220,
-								2220
-							],
-							[
-								5035,
-								5035
-							],
-							[
-								7994,
-								7994
+								9971,
+								9971
 							]
 						],
 						"settings":
@@ -410,7 +422,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2502.0,
+						"translation.y": 1746.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -420,15 +432,15 @@
 					"file": "/C/Users/johan/Desktop/test/test.html",
 					"settings":
 					{
-						"buffer_size": 2455,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1691,
-								1691
+								0,
+								0
 							]
 						],
 						"settings":
@@ -488,7 +500,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 432.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -498,15 +510,15 @@
 					"file": "_main.scss",
 					"settings":
 					{
-						"buffer_size": 5439,
+						"buffer_size": 5551,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3926,
-								3927
+								4766,
+								4766
 							]
 						],
 						"settings":
@@ -563,7 +575,7 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3713.0,
+						"translation.y": 4203.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -732,8 +744,8 @@
 						"selection":
 						[
 							[
-								1652,
-								1652
+								1198,
+								1206
 							]
 						],
 						"settings":
@@ -800,15 +812,15 @@
 					"file": "/C/Users/johan/Desktop/test/views/competitie.html",
 					"settings":
 					{
-						"buffer_size": 7393,
+						"buffer_size": 9889,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3022,
-								3022
+								7474,
+								7474
 							]
 						],
 						"settings":
@@ -867,7 +879,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1026.0,
+						"translation.y": 3611.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -945,6 +957,157 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/johan/Desktop/test/.gitignore",
+					"settings":
+					{
+						"buffer_size": 660,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								660,
+								660
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "modules/_header.scss",
+					"settings":
+					{
+						"buffer_size": 2624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2341,
+								2341
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1296.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
