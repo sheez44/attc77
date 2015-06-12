@@ -92,7 +92,7 @@ $(document).ready(function() {
 
   $clubblad.on('click', function(e) {
     e.preventDefault();
-    window.open("downloads/clubblad/januari_2015.pdf", '_blank');
+    window.open("downloads/clubblad/juni_2015.pdf", '_blank');
   });
 })();
 

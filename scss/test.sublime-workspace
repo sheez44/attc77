@@ -104,7 +104,7 @@
 			"file": "/C/Users/johan/Desktop/test/views/competitie.html",
 			"settings":
 			{
-				"buffer_size": 9276,
+				"buffer_size": 9304,
 				"line_ending": "Windows"
 			}
 		},
@@ -817,15 +817,15 @@
 					"file": "/C/Users/johan/Desktop/test/views/competitie.html",
 					"settings":
 					{
-						"buffer_size": 9276,
+						"buffer_size": 9304,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1634,
-								1634
+								7544,
+								7544
 							]
 						],
 						"settings":
@@ -884,7 +884,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 695.0,
+						"translation.y": 3395.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
