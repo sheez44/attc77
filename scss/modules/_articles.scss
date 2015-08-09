@@ -27,6 +27,7 @@
   &__title {
     font-size: 2em;
     line-height: 1;
+    margin-bottom: 0;
   }
   &__image {
   	@include padding(left, 12px);
@@ -49,6 +50,9 @@
         margin: 0;
       }
     }
+  }
+  h5 {
+    margin-top: 0;
   }
 }
 
