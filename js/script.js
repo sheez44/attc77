@@ -1,8 +1,10 @@
 // Code goes here
 
 $(document).ready(function() {
+  "use strict";
+
   var $tab = $(".bottom--container").find(".tabs li");
-  
+
   $tab.on('click', function() {
     var $activeTab = $(".tabs").find("li.active");
 
@@ -18,12 +20,12 @@ $(document).ready(function() {
     });
   });
 
+  var $news_tabs = $(".news-tabs");
 
-// make plugin, not dry
-  var $tab1 = $(".news-tabs").find("#ntab1");
-  var $tab2 = $(".news-tabs").find("#ntab2");
-  var $tab3 = $(".news-tabs").find("#ntab3");
-  
+  var $tab1 = $news_tabs.find("#ntab1");
+  var $tab2 = $news_tabs.find("#ntab2");
+  var $tab3 = $news_tabs.find("#ntab3");
+
 
   var tabClick = function () {
     var $activenTab = $(".news-tabs").find(".news-active");
@@ -40,7 +42,7 @@ $(document).ready(function() {
   $tab2.on('click', tabClick);
   $tab3.on('click', tabClick);
 
-  
+
   $('article').on('click', function() {
     var $article = $(".container").find("article.active");
     if (!$article.hasClass("maxHeight")) {
@@ -52,15 +54,15 @@ $(document).ready(function() {
     }
   });
 
-  $menu = $(".menu");
-  $header = $('header');
-  $nav = $('nav');
+  var $menu = $(".menu");
+  var $header = $('header');
+  var $nav = $('nav');
 
   $menu.on('click', function() {
     if (!$header.hasClass("menuHeight")) {
       $nav.css("display", "block");
       $header.addClass("menuHeight");
-    } else {    
+    } else {
       $header.removeClass("menuHeight");
       $nav.css("display", "none");
 
@@ -87,8 +89,9 @@ $(document).ready(function() {
 });
 
 (function() {
-  $clubblad = $('div#overlay');
+  "use strict";
 
+  var $clubblad = $('div#overlay');
 
   $clubblad.on('click', function(e) {
     e.preventDefault();
@@ -98,6 +101,7 @@ $(document).ready(function() {
 
 
 (function() {
+  "use strict";
 
   $.getJSON('downloads.json', function(data) {
     var html = '<ul>';
@@ -118,8 +122,10 @@ $(document).ready(function() {
 })();
 
 (function() {
+  "use strict";
 
   var $img = $('img.team_photo');
+  var $modal_window = $("#modal-window");
 
   $img.on('click', function(e) {
     e.preventDefault();
@@ -132,9 +138,9 @@ $(document).ready(function() {
     var insert = '<img class="img-responsive" src="' + image + '" />';
 
 
-    $("#modal-window").fadeIn(1000);
+     $modal_window.fadeIn(1000);
     
-    $( "#modal-window" ).append(insert).append('<span class="close">X Close</span');
+     $modal_window.append(insert).append('<span class="close">X Close</span>');
 
     $('body').append('<div id="mask"></div>');
 
@@ -143,8 +149,8 @@ $(document).ready(function() {
 
   $(document).on('click', 'span.close, #mask', function() {
     
-    $('#modal-window').fadeOut(300);
-    $('#modal-window').find('img, span.close').remove();
+     $modal_window.fadeOut(300);
+     $modal_window.find('img, span.close').remove();
     $('#mask').fadeOut(300, function() {
       $('#mask').remove();  
     });   
