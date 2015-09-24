@@ -63,8 +63,15 @@ $(document).ready(function() {
         } else {
             $header.removeClass("menuHeight");
             $nav.css("display", "none");
-
         }
+
+        $(window).resize(function() {
+            console.log($(window).height());
+           if(!$header.hasClass('menuHeight') && $(window).height() > 768) {
+               $nav.css("display", "block");
+               $header.addClass("menuHeight");
+           }
+        });
     });
 
     $.getJSON('dates.json', function(data) {
@@ -164,5 +171,5 @@ $(document).ready(function() {
 
         }
     });
-//
+
 })();
