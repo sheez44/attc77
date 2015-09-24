@@ -64,14 +64,14 @@ $(document).ready(function() {
             $header.removeClass("menuHeight");
             $nav.css("display", "none");
         }
+    });
 
-        $(window).resize(function() {
-           if(!$header.hasClass('menuHeight') && $(window).height() > 768) {
+    $(window).resize(function() {
+           if(!$header.hasClass('menuHeight') && $(window).width() > 768) {
                $nav.css("display", "block");
                $header.addClass("menuHeight");
            }
         });
-    });
 
     $.getJSON('dates.json', function(data) {
         drawTable(data);
