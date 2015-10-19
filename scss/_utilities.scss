@@ -44,10 +44,6 @@
   font-size: $font-size;
 }
 
-@mixin padding($side, $pd) {
-	padding-#{$side}: $pd; 
-}
-
 @mixin heights($height) {
 	height: $height;
 	line-height: $height;
