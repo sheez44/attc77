@@ -50,13 +50,12 @@ nav {
 		text-shadow: 3px 3px 1px darken($color-primary, 40%);
 		@include responsive(780px) {
 			color: $white;
+			display: block;
 		}
 		&:hover {
 			color: $white;
-			text-decoration: underline;
 			@include responsive(780px) {
 				color: tomato;
-				text-underline: none !important;
 			}
 		}
 	}
@@ -70,11 +69,13 @@ nav {
 		line-height: 1em;
 		font-size: 1.5em;
 		margin-bottom: 3%;
-		&:hover {
-			color: $white;
-		}
 	}
 	i {
 		padding-left: 0.5em;
+		cursor: pointer;
+
+		&:hover {
+			color: $white;
+		}
 	}
 }
