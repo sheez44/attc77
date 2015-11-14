@@ -170,5 +170,4 @@ $(document).ready(function() {
 
         }
     });
-
 })();
