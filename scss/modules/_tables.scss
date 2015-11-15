@@ -10,7 +10,10 @@
 	font-size: .7em;
 	color: #404040;
 	background-color: #fafafa;
-	padding: 4px 0 4px 8px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 0px;
 }
 
 table.compTeam { 
@@ -24,7 +27,6 @@ table.compTeam {
 	@include responsive(md) {
 		width: 70%;
 		float: none;
-		display: table;
 		margin: 2em auto;
 	}
 	@include responsive(sm) {

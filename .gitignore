@@ -40,7 +40,6 @@ Images
 
 *.jpg
 *.gif
-/css
 *.png
 *.svg
 *.ico
@@ -64,11 +63,8 @@ Audio
 *.mp3
 *.wma
 
-.idea
+
 .sass-cache
-/googlecb8167f92ad3a654.html
-/sitemap.xml
-/js/main.min.js
 img
 node_modules
 *.sublime-project

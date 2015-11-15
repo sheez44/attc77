@@ -27,10 +27,10 @@
   &__title {
     font-size: 2em;
     line-height: 1;
-    margin-bottom: 0;
   }
   &__image {
-  	padding: 1em 0 0 1em;
+  	@include padding(left, 12px);
+  	@include padding(bottom, 10px);
   	float: right;
     @include responsive(md) {
       display: none;
@@ -49,9 +49,6 @@
         margin: 0;
       }
     }
-  }
-  h5 {
-    margin-top: 0;
   }
 }
 

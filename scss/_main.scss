@@ -50,8 +50,8 @@ body {
 	border: $border-default;
 	background: linear-gradient($bgcolor-light, $white);
 	@extend %clearfix;
-	padding-top: $padding-botsection-default-lg; // Work with opposite?
-	padding-bottom: $padding-botsection-default-lg;
+	@include padding(top, $padding-botsection-default-lg); // Work with opposite?
+	@include padding(bottom, $padding-botsection-default-lg);
 	@include responsive (md) {
 		margin-left: $margin-side-md;
 		margin-right: $margin-side-md;

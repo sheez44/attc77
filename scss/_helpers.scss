@@ -116,6 +116,7 @@
 
 .menuHeight {
   height: 100%;
+  padding-bottom: 2%;
 }
 
 .hidden {
@@ -124,6 +125,13 @@
 
 .img-responsive {
   max-width: 100%;
+}
+
+.under_construction {
+  background: image-url('Site-under-construction.gif');
+  width: image-width('Site-under-construction.gif');
+  height: image-height('Site-under-construction.gif');
+  margin: 3em auto;
 }
 
 .mute-link {
