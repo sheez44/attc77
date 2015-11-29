@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function($) {
     "use strict";
 
     var $tab = $(".bottom--container").find(".tabs li");
@@ -85,9 +85,12 @@ $(document).ready(function() {
     }
 
     function drawRow(rowData) {
-        var row = $("<tr />");
-        var date = rowData.date;
-        var activity = rowData.activity;
+        var activity;
+        var row; row = $("<tr />");
+        var date;
+        /** @namespace rowData.date */
+        date = rowData.date;
+activity = rowData.activity;
         $("#agenda").prepend(row);
         row.append($("<td>" + date + "</td>"));
         row.append($("<td>" + activity + "</td>"));
@@ -102,7 +105,7 @@ $(document).ready(function() {
 
     $clubblad.on('click', function(e) {
         e.preventDefault();
-        window.open("downloads/clubblad/juni_2015.pdf", '_blank');
+        window.open("downloads/clubblad/november_2015.pdf", '_blank');
     });
 })();
 
@@ -171,4 +174,4 @@ $(document).ready(function() {
 
         }
     });
-})();
+})(jQuery);
