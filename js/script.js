@@ -79,7 +79,7 @@ $(document).ready(function($) {
     });
 
     function drawTable(data) {
-        for (var i = 0; i < 5; i++) {
+        for (var i = 5; i >= 0; i--) {
             drawRow(data[i]);
         }
     }

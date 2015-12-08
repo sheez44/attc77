@@ -1,6 +1,42 @@
 [
 	{
-		"date": "11 september",
-		"activity": "Start voorjaarscompetitie"
+		"date": "12 december",
+		"activity": "Feestavond"
+	},
+		{
+		"date": "19 december",
+		"activity": "surpriseavond jeugd"
+	},
+		{
+		"date": "3 januari",
+		"activity": "Luikse Markt"
+	},
+		{
+		"date": "15 januari",
+		"activity": "clubkampioenschappen senioren"
+	},
+		{
+		"date": "17 januari",
+		"activity": "clubkampioenschappen jeugd"
+	},
+		{
+		"date": "29 januari",
+		"activity": "start voorjaarscompetitie"
+	},
+		{
+		"date": "3 februari",
+		"activity": "zaal gesloten"
+	},
+		{
+		"date": "4 februari ",
+		"activity": "kaartavond"
+	},
+		{
+		"date": "8 februari",
+		"activity": "zaal gesloten"
+	},
+		{
+		"date": "15 juli",
+		"activity": "verrassingstoernooi"
 	}
 ]
