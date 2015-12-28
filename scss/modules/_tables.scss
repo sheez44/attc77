@@ -30,9 +30,6 @@ table.compTeam {
 		margin: 2em auto;
 	}
 	@include responsive(sm) {
-		width: 88%;
-	}
-	@include responsive(xs) {
 		width: 96%;
 		margin: 1em auto;
 	}

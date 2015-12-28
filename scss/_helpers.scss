@@ -104,7 +104,7 @@
     @include adjust-font-size-to(22px);
     @include adjust-leading-to(1, 22px);
   }
-  @include responsive(xs) {
+  @include responsive(sm) {
     @include adjust-font-size-to(15px);
     @include adjust-leading-to(1, 15px);
   }

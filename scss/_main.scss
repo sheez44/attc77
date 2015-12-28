@@ -83,7 +83,7 @@ body {
 		img {
 			max-width: 100%;
 		}
-		@include responsive(xs) {
+		@include responsive(sm) {
 			width: 96%;
 		}
 	}
@@ -102,7 +102,7 @@ body {
 		h3 {
 			text-align: center;
 		}
-		@include responsive(xs) {
+		@include responsive(sm) {
 			width: 93%;
 		}
 	}
@@ -131,20 +131,20 @@ body {
 	@include responsive(sm) {
 		padding: 0 0 0 12%;
 	}
-	@include responsive(xs) {
+	@include responsive(sm) {
 		padding-left: 20%;
 	}
 	&--image {
 		max-width: 100%;
 		float: left;
-		@include responsive(xs) {
+		@include responsive(sm) {
 			display: none;
 		}
 	}
 	&--info {
 		float: left;
 		h2 {
-			@include responsive(xs) {
+			@include responsive(sm) {
 				text-align: center;
 			}
 		}
@@ -238,7 +238,7 @@ body {
         margin-bottom: 0;
         font-size: 163%;
         margin-top: 0.3rem;
-        @include responsive(xs) {
+        @include responsive(sm) {
         	font-size: 100%;
         	font-weight: normal;
         }
@@ -248,7 +248,7 @@ body {
         color: white;
         letter-spacing: 0.05em;
         font-size: 130%;
-        @include responsive(xs) {
+        @include responsive(sm) {
         	font-size: 100%;
         	font-weight: normal;
         }

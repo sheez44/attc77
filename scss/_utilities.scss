@@ -14,9 +14,6 @@
 // Mixins
 
 @mixin responsive($device) {
-	@if $device == "xs" {
-		@media screen and (min-width: $mq-xs) { @content; } // $mq-small: 320px;
-	}
 	@if $device == "sm" {
 		@media screen and (max-width: $mq-small) { @content; } // $mq-small: 480px;
 	}
