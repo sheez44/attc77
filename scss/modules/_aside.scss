@@ -1,4 +1,4 @@
-.aside__sponsors, .aside__agenda {
+.aside__sponsors, .aside__agenda, .aside__announcement {
 	@extend %aside-block;
 	@include responsive(md) {
 		margin-bottom: $margin-section-small !important;
@@ -45,5 +45,13 @@
 	@include responsive(sm) {
 		border: 0;
 		font-size: 0.93rem;
+	}
+}
+
+.aside__announcement {
+	margin-bottom: $margin-section-default;
+
+	img{
+		max-width: 100%;
 	}
 }
