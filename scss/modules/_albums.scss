@@ -1,75 +1,60 @@
 .photo-albums {
-	// @include display-flex;
-	// @include justify-content(space-between);
-	// @include flex-wrap(wrap);
-	// @include align-items(flex-start);
-	width: 96%;
-	margin-left: 2%;
-	@include responsive(md) {
-		width: 99%;
-	}
-	@include responsive(sm) {
-		margin: 0;
-		width: 100%;
-	}	
-	&--preview {
-		height: 31%;
-		width: 31%;		
-		margin: 0 1% 2%;
-		padding: 1% 1% 0 1%;
-		border: $border-default-black;
-		display: inline-block;
-		@include responsive(md) {
-			width: 46%;
-			margin-bottom: 3%;
-		}
-		@include responsive(sm) {
-			width: 75%;
-			margin-bottom: 3%;
-			display: block;
-			margin: 0 auto 1em;
-		}
-		@include responsive(xs) {
-			width: 96%;
-		}		
-		img {
-			max-width: 100%;
-			&:hover {
-				cursor: pointer;
-			}
-		}
-	}
-	&__subtitle {
-		text-align: center;
-		padding-bottom: 4px;
-	}
+    display: flex;
+    flex-wrap: wrap;
+
+    &--preview {
+        flex: 1;
+        max-width: 31%;
+        margin: 1%;
+        padding: 1% 1% 0 1%;
+        border: $border-default-black;
+        @include responsive(lg) {
+            max-width: 50%;
+        }
+        @include responsive(md) {
+            max-width: 50%;
+        }
+        @include responsive(xs) {
+            max-width: 96%;
+        }
+        img {
+            max-width: 100%;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    &__subtitle {
+        text-align: center;
+        padding-bottom: 4px;
+    }
 }
 
 .gallery {
-	margin: 0 auto;
-	width: 75%;
-	@include responsive(lg) {
-		width: 88%;
-	}
-	@include responsive(sm) {
-		padding: 0;
-		width: 94%;
-	}
-	img {
-		height: 144px;
-		width: 16%;
-		@include responsive(lg) {
-			width: 24%;
-		}
-		@include responsive(md) {
-			width: 32%;
-		}
-		@include responsive(sm) {
-			width: 49%;
-		}
-		@include responsive(xs) {
-			width: 100%;
-			height: auto;
-		}
-	}
+    margin: 0 auto;
+    width: 75%;
+    @include responsive(lg) {
+        width: 88%;
+    }
+    @include responsive(sm) {
+        padding: 0;
+        width: 94%;
+    }
+    img {
+        height: 144px;
+        width: 16%;
+        @include responsive(lg) {
+            width: 24%;
+        }
+        @include responsive(md) {
+            width: 32%;
+        }
+        @include responsive(sm) {
+            width: 49%;
+        }
+        @include responsive(xs) {
+            width: 100%;
+            height: auto;
+        }
+    }
 }

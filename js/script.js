@@ -131,7 +131,7 @@ activity = rowData.activity;
 
 })();
 
-(function() {
+(function($) {
     "use strict";
 
     var $img = $('img.team_photo');
@@ -174,4 +174,16 @@ activity = rowData.activity;
 
         }
     });
+})(jQuery);
+
+(function($) {
+    "use strict";
+
+    var $button = $('.btn-default');
+
+    $button.on('click', function() {
+        var $link = $(this).find('a').attr('href');
+
+        window.open($link);
+    })
 })(jQuery);
