@@ -54,9 +54,5 @@
         @include responsive(sm) {
             width: 49%;
         }
-        @include responsive(xs) {
-            width: 100%;
-            height: auto;
-        }
     }
 }
