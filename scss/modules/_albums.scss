@@ -1,21 +1,23 @@
 .photo-albums {
     display: flex;
+    display: -ms-flexbox;
     flex-wrap: wrap;
+    justify-content: space-between;
 
     &--preview {
-        flex: 1;
-        max-width: 31%;
+        width: 31%;
         margin: 1%;
         padding: 1% 1% 0 1%;
         border: $border-default-black;
         @include responsive(lg) {
-            max-width: 50%;
+            width: 48%;
         }
         @include responsive(md) {
-            max-width: 50%;
+            width: 48%;
         }
-        @include responsive(xs) {
-            max-width: 96%;
+        @include responsive(sm) {
+            width: 96%;
+            margin: 0 auto 1em;
         }
         img {
             max-width: 100%;
