@@ -8,5 +8,5 @@
         var $link = $(this).find('a').attr('href');
 
         window.open($link);
-    })
+    });
 })();

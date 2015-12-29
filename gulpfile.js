@@ -26,4 +26,9 @@ gulp.task('compass', function() {
        .pipe(gulp.dest('builds/development/css'))
 });
 
+gulp.task('watch', function(){
+    gulp.watch(jsSources, ['js']);
+    gulp.watch(['components/scss/*.scss', 'components/scss/modules/*.scss'], ['compass']);
+});
+
 gulp.task('default', ['js', 'compass']);
