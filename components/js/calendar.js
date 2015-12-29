@@ -1,4 +1,7 @@
-(function($){
+(function(){
+    "use strict";
+    var $ = require('jQuery');
+
     $.getJSON('dates.json', function(data) {
         drawTable(data);
     });
@@ -20,4 +23,4 @@ activity = rowData.activity;
         row.append($("<td>" + date + "</td>"));
         row.append($("<td>" + activity + "</td>"));
     }
-})(jQuery);
+})();

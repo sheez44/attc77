@@ -1,4 +1,7 @@
-(function($){
+(function(){
+    "use strict";
+    var $ = require('jQuery');
+
     var $menu = $(".menu");
     var $header = $('header');
     var $nav = $('nav');
@@ -20,4 +23,4 @@
            }
         });
     });
-})(jQuery);
+})();

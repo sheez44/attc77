@@ -1,5 +1,6 @@
 (function() {
     "use strict";
+    var $ = require('jQuery');
 
     $.getJSON('downloads.json', function(data) {
         var html = '<ul>';

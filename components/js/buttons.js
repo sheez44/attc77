@@ -1,5 +1,6 @@
-(function($) {
+(function() {
     "use strict";
+    var $ = require('jQuery');
 
     var $button = $('.btn-default');
 
@@ -8,4 +9,4 @@
 
         window.open($link);
     })
-})(jQuery);
+})();

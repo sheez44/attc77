@@ -1,5 +1,6 @@
 (function() {
     "use strict";
+    var $ = require('jQuery');
 
     var $clubblad = $('div#overlay');
 

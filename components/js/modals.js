@@ -1,5 +1,6 @@
-(function($) {
+(function() {
     "use strict";
+    var $ = require('jQuery');
 
     var $img = $('img.team_photo');
     var $modal_window = $("#modal-window");
@@ -41,4 +42,4 @@
 
         }
     });
-})(jQuery);
+})();

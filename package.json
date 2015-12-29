@@ -8,7 +8,9 @@
   },
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-concat": "^2.6.0"
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "jquery": "^2.1.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

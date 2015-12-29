@@ -1,5 +1,6 @@
-(function($) {
+(function() {
     "use strict";
+    var $ = require('jQuery');
 
     var $tab = $(".bottom--container").find(".tabs li");
 
@@ -39,4 +40,4 @@
     $tab1.on('click', tabClick);
     $tab2.on('click', tabClick);
     $tab3.on('click', tabClick);
-})(jQuery);
+})();
