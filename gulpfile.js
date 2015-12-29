@@ -8,5 +8,5 @@ var jsSources = [
 gulp.task('js', function() {
     gulp.src(jsSources)
         .pipe(concat('scripts.js'))
-        .pipe(gulp.dest('build/js'))
+        .pipe(gulp.dest('builds/development/js'))
 });

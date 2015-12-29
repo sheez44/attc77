@@ -22,6 +22,7 @@
         window.open($link);
     })
 })(jQuery);
+
 (function($){
     $.getJSON('dates.json', function(data) {
         drawTable(data);
