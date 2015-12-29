@@ -69,4 +69,4 @@ components/img
 node_modules
 *.sublime-project
 *.sublime-workspace
-components/downloads
+components/downloads.idea/workspace.xml
