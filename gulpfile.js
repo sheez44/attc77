@@ -1,7 +1,8 @@
 var gulp = require('gulp'),
     concat = require('gulp-concat'),
     browserify = require('gulp-browserify'),
-    compass = require('gulp-compass');
+    compass = require('gulp-compass'),
+    connect = require('gulp-connect');
 
 var jsSources = [
     'components/js/*.js'
@@ -14,6 +15,7 @@ gulp.task('js', function() {
         .pipe(concat('scripts.js'))
         .pipe(browserify())
         .pipe(gulp.dest('builds/development/js'))
+        .pipe(connect.reload())
 });
 
 gulp.task('compass', function() {
@@ -24,6 +26,7 @@ gulp.task('compass', function() {
            style: 'expanded'
        }))
        .pipe(gulp.dest('builds/development/css'))
+       .pipe(connect.reload())
 });
 
 gulp.task('watch', function(){
@@ -31,4 +34,11 @@ gulp.task('watch', function(){
     gulp.watch(['components/scss/*.scss', 'components/scss/modules/*.scss'], ['compass']);
 });
 
-gulp.task('default', ['js', 'compass']);
+gulp.task('connect', function() {
+    connect.server({
+        root: 'builds/development/',
+        livereload: true
+    });
+});
+
+gulp.task('default', ['js', 'compass', 'connect', 'watch']);
