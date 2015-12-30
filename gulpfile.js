@@ -4,21 +4,41 @@ var gulp = require('gulp'),
     compass = require('gulp-compass'),
     connect = require('gulp-connect');
 
-var jsSources = [
+var env,
+    jsSources,
+    sassSources,
+    htmlSources,
+    jsonSources,
+    outputDir,
+    sassStyle;
+
+env = process.env.NODE_ENV || 'development';
+
+// SET NODE_ENV=production & gulp
+
+if (env === 'development') {
+    outputDir = 'builds/development/';
+    sassStyle = 'expanded'
+} else {
+    outputDir = 'builds/production/';
+    sassStyle = 'compressed';
+}
+
+jsSources = [
     'components/js/*.js'
 ];
 
-var sassSources = ['components/scss/application.scss'];
+sassSources = ['components/scss/application.scss'];
 
-var htmlSources =  ['builds/development/**.html'];
+htmlSources =  [outputDir + '**.html'];
 
-var jsonSources = ['builds/development/js/*.json'];
+jsonSources = [outputDir + 'js/*.json'];
 
 gulp.task('js', function() {
     gulp.src(jsSources)
         .pipe(concat('scripts.js'))
         .pipe(browserify())
-        .pipe(gulp.dest('builds/development/js'))
+        .pipe(gulp.dest(outputDir + 'js'))
         .pipe(connect.reload())
 });
 
@@ -27,9 +47,9 @@ gulp.task('compass', function() {
        .pipe(compass({
            sass: 'components/scss',
            image: 'components/img',
-           style: 'expanded'
+           style: sassStyle
        }))
-       .pipe(gulp.dest('builds/development/css'))
+       .pipe(gulp.dest(outputDir + 'css'))
        .pipe(connect.reload())
 });
 
@@ -42,7 +62,7 @@ gulp.task('watch', function(){
 
 gulp.task('connect', function() {
     connect.server({
-        root: 'builds/development/',
+        root: outputDir,
         livereload: true
     });
 });

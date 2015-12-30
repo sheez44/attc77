@@ -40,6 +40,7 @@ Images
 
 *.jpg
 *.gif
+/builds/production
 *.png
 *.svg
 *.ico
