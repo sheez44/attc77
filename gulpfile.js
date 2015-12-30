@@ -4,7 +4,8 @@ var gulp = require('gulp'),
     compass = require('gulp-compass'),
     connect = require('gulp-connect'),
     gulpif = require('gulp-if'),
-    uglify = require('gulp-uglify');
+    uglify = require('gulp-uglify'),
+    autoprefixer = require('gulp-autoprefixer');
 
 var env,
     jsSources,
@@ -26,6 +27,8 @@ if (env === 'development') {
     sassStyle = 'compressed';
 }
 
+console.log(outputDir);
+
 jsSources = [
     'components/js/*.js'
 ];
@@ -40,7 +43,7 @@ gulp.task('js', function() {
     gulp.src(jsSources)
         .pipe(concat('scripts.js'))
         .pipe(browserify())
-        .pipe(gulpif(env != 'development', uglify()))
+        .pipe(gulpif(env !== 'development', uglify()))
         .pipe(gulp.dest(outputDir + 'js'))
         .pipe(connect.reload())
 });
@@ -52,6 +55,7 @@ gulp.task('compass', function() {
            image: 'components/img',
            style: sassStyle
        }))
+       .pipe(autoprefixer())
        .pipe(gulp.dest(outputDir + 'css'))
        .pipe(connect.reload())
 });
