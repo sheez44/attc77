@@ -2,7 +2,7 @@
     "use strict";
     var $ = require('jQuery');
 
-    $.getJSON('dates.json', function(data) {
+    $.getJSON('js/dates.json', function(data) {
         drawTable(data);
     });
 

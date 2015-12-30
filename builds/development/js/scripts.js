@@ -32,7 +32,7 @@
     "use strict";
     var $ = require('jQuery');
 
-    $.getJSON('dates.json', function(data) {
+    $.getJSON('js/dates.json', function(data) {
         drawTable(data);
     });
 
@@ -70,7 +70,7 @@ activity = rowData.activity;
     "use strict";
     var $ = require('jQuery');
 
-    $.getJSON('downloads.json', function(data) {
+    $.getJSON('js/downloads.json', function(data) {
         var html = '<ul>';
 
         $.each($(data).slice(0,9), function(key, val) {

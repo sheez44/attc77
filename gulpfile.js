@@ -10,6 +10,10 @@ var jsSources = [
 
 var sassSources = ['components/scss/application.scss'];
 
+var htmlSources =  ['builds/development/**.html'];
+
+var jsonSources = ['builds/development/js/*.json'];
+
 gulp.task('js', function() {
     gulp.src(jsSources)
         .pipe(concat('scripts.js'))
@@ -32,6 +36,8 @@ gulp.task('compass', function() {
 gulp.task('watch', function(){
     gulp.watch(jsSources, ['js']);
     gulp.watch(['components/scss/*.scss', 'components/scss/modules/*.scss'], ['compass']);
+    gulp.watch(htmlSources, ['html']);
+    gulp.watch(jsonSources, ['json']);
 });
 
 gulp.task('connect', function() {
@@ -41,4 +47,15 @@ gulp.task('connect', function() {
     });
 });
 
-gulp.task('default', ['js', 'compass', 'connect', 'watch']);
+gulp.task('html', function() {
+    gulp.src(htmlSources)
+        .pipe(connect.reload())
+});
+
+gulp.task('json', function() {
+    gulp.src(jsonSources)
+        .pipe(connect.reload())
+});
+
+
+gulp.task('default', ['html', 'json', 'js', 'compass', 'connect', 'watch']);
