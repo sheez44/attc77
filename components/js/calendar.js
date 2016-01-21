@@ -7,7 +7,7 @@
     });
 
     function drawTable(data) {
-        for (var i = data.length; i >= 0; i--) {
+        for (var i = data.length - 1; i >= 0; i--) {
             drawRow(data[i]);
         }
     }

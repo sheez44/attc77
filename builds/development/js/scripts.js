@@ -43,9 +43,12 @@
     }
 
     function drawRow(rowData) {
+        var activity;
         var row; row = $("<tr />");
-        var date = rowData.date;
-        var activity = rowData.activity;
+        var date;
+        /** @namespace rowData.date */
+        date = rowData.date;
+        activity = rowData.activity;
         $("#agenda").prepend(row);
         row.append($("<td>" + date + "</td>"));
         row.append($("<td>" + activity + "</td>"));
