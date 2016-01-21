@@ -1,34 +1,16 @@
-[
-		{
-		"date": "3 januari",
-		"activity": "Luikse Markt"
-	},
-		{
-		"date": "15 januari",
-		"activity": "clubkampioenschappen senioren"
-	},
-		{
-		"date": "17 januari",
-		"activity": "clubkampioenschappen jeugd"
-	},
-		{
-		"date": "29 januari",
-		"activity": "start voorjaarscompetitie"
-	},
-		{
-		"date": "3 februari",
-		"activity": "zaal gesloten"
-	},
-		{
-		"date": "4 februari ",
-		"activity": "kaartavond"
-	},
-		{
-		"date": "8 februari",
-		"activity": "zaal gesloten"
-	},
-		{
-		"date": "15 juli",
-		"activity": "verrassingstoernooi"
-	}
-]
+[{
+	"date": "29 januari",
+	"activity": "start voorjaarscompetitie"
+}, {
+	"date": "3 februari",
+	"activity": "zaal gesloten"
+}, {
+	"date": "4 februari ",
+	"activity": "kaartavond"
+}, {
+	"date": "8 februari",
+	"activity": "zaal gesloten"
+}, {
+	"date": "15 juli",
+	"activity": "verrassingstoernooi"
+}]

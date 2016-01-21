@@ -7,7 +7,7 @@
     });
 
     function drawTable(data) {
-        for (var i = 5; i >= 0; i--) {
+        for (var i = data.length; i >= 0; i--) {
             drawRow(data[i]);
         }
     }
@@ -18,7 +18,7 @@
         var date;
         /** @namespace rowData.date */
         date = rowData.date;
-activity = rowData.activity;
+        activity = rowData.activity;
         $("#agenda").prepend(row);
         row.append($("<td>" + date + "</td>"));
         row.append($("<td>" + activity + "</td>"));
