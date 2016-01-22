@@ -1941,9 +1941,6 @@ td.bondsnummer {
   position: absolute;
   top: 50%;
   left: 50%;
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 59em;
   z-index: 9999;
@@ -1965,6 +1962,14 @@ td.bondsnummer {
   padding: 3px;
   width: 8%;
   text-align: center;
+  cursor: pointer;
+}
+
+img[data-modal-active] {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
 }
 
 @font-face {
