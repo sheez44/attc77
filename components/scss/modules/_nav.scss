@@ -1,0 +1,80 @@
+// ==========================================================================
+// Navigation
+// ==========================================================================
+
+
+// Main navigation menu
+
+nav {
+	float: right;
+	font-size: 1.3rem;
+	@include responsive(lg) {
+		float: none;
+	}
+	@include responsive(780px) {
+		display: none;
+	}
+	ul {
+		@include horizontal-list(7px, left);
+		@include responsive(lg) {
+			margin-top: -0.8em;
+		}
+		li {
+			@include responsive(lg) {
+			float: none;
+			display: inline-block;
+			}
+			@include responsive(780px) {
+				display: block;
+				line-height: 2em;
+				&:hover a {
+					color: tomato;
+					text-decoration: none;
+				}
+				&:hover {
+					background: rgba(255,255,255, 0.1);
+				}
+			}
+			&:first-child{
+				@include responsive(sm) {
+					margin-top: 0.5em;
+				}
+			}
+		}
+	}
+
+	.header__links { // li
+		text-decoration: none;
+		color: $color-primary;
+		font-weight: bold;
+		text-shadow: 3px 3px 1px darken($color-primary, 40%);
+		@include responsive(780px) {
+			color: $white;
+		}
+		&:hover {
+			color: $white;
+			text-decoration: underline;
+			@include responsive(780px) {
+				color: tomato;
+				text-underline: none !important;
+			}
+		}
+	}
+}
+
+.menu {
+	display: none;
+	@include responsive(780px) {
+		display: block;
+		color: $color-primary;
+		line-height: 1em;
+		font-size: 1.5em;
+		margin-bottom: 3%;
+		&:hover {
+			color: $white;
+		}
+	}
+	i {
+		padding-left: 0.5em;
+	}
+}

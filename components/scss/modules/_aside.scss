@@ -1,0 +1,57 @@
+.aside__sponsors, .aside__agenda, .aside__announcement {
+	@extend %aside-block;
+	@include responsive(md) {
+		margin-bottom: $margin-section-small !important;
+	}
+}
+
+.aside__sponsors {
+	margin-bottom: $margin-section-default;
+	@extend %img-resp;
+	&--images {
+		text-align: center;
+		@include responsive(md) {
+			@include display-flex;
+			@include justify-content(space-around);
+		}
+	}
+	img {
+		@include responsive(md) {
+			width: 32%;
+		}
+	}
+	@include responsive(sm) {
+		display: none;
+	}
+}
+
+.aside {
+	@extend %clearfix;
+	@include responsive(md) {
+		width: 98%;
+		margin-left: $margin-side-md;
+		margin-right: $margin-side-md;
+	}
+	&__agenda {
+		margin-bottom: 7%;
+	}
+}
+
+.aside h2 {
+	text-align: center;
+}
+
+#agenda.footable {
+	@include responsive(sm) {
+		border: 0;
+		font-size: 0.93rem;
+	}
+}
+
+.aside__announcement {
+	margin-bottom: $margin-section-default;
+
+	img{
+		max-width: 100%;
+	}
+}

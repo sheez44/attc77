@@ -1,0 +1,72 @@
+// ==========================================================================
+// Global Config
+// ==========================================================================
+
+// Font Stacks
+
+$font-url--google        : 'http://fonts.googleapis.com/css?family=Bitter:400,700,400italic';
+$font-family--primary    : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--secondary  : 'Bitter', serif;
+
+// Font Weights
+
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
+
+// Descriptive Base Colors
+
+$sps-blue  		: #008BE3;
+$sps-white      : #fcfdf2;
+$sunglo         : #e67478;
+$coral          : #ff784f;
+$purple-majesty : #9279c3;
+$scooter        : #39add1;
+
+$white : $sps-white;
+$black : #0b0b0b;
+$grey  : #797e83;
+
+// Color Usage
+
+$color-primary   : $sps-blue;
+$color-secondary : $sps-white;
+$color-accent    : $scooter;
+$color-shadow    : rgba($black, .2);
+
+$bgcolor-light: lighten($color-primary, 31%);
+$bgcolor-dark:  darken($color-primary, 11%);
+// Text
+
+$base-font-size : 10px;
+$base-line-height      : 24px;
+
+// Media Queries
+
+$mq-small: 480px;
+$mq-medium: 768px;
+$mq-large: 1150px;
+
+// Border Radius
+
+$border-radius-default: 10px;
+
+// Margins
+
+$margin-side-lg: 3%;
+$margin-side-md: 1%;
+$margin-side-sm: $margin-side-md;
+
+$margin-section-default: 8%;
+$margin-section-small: 2%;
+
+$margin-botsection-default-lg: 2.5%;
+$padding-botsection-default-lg: $margin-botsection-default-lg;
+
+// Borders 
+$border-default: 1px solid $white;
+$border-default-black: 1px solid $black;
+
+$clubblad_image: url(../img/informatie/clubblad.png);

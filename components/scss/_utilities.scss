@@ -1,0 +1,51 @@
+// ==========================================================================
+// Utilities
+// ==========================================================================
+
+// Import if Google Fonts URL is defined
+
+@if variable_exists(font-url--google) {
+	@import url($font-url--google);
+}
+
+// Functions and Directives
+
+
+// Mixins
+
+@mixin responsive($device) {
+	@if $device == "sm" {
+		@media screen and (max-width: $mq-small) { @content; } // $mq-small: 480px;
+	}
+	@if $device == "md" {
+		@media screen and (max-width: $mq-medium) { @content; } // $mq-medium: 768px;
+	}
+	@if $device == "lg" {
+		@media screen and (max-width: $mq-large) { @content; } // $mq-large: 1100px;
+	}
+	@else {
+		@media screen and(max-width: $device) { @content; }
+	}
+}
+
+@mixin side-border($side, $color, $px: 1px, $line: solid) {
+	border-#{$side}: $px $line $color;
+}
+
+@mixin panel-tabs($bg: #999, $color: #fff, $font-size: 2.2rem, $br: 10px 10px 0 0, $padding: 3px 10px) {
+  @extend %panel-tabs;
+  background: $bg;
+  color: $color;
+  padding: $padding;
+  border-radius: $br;
+  font-size: $font-size;
+}
+
+@mixin padding($side, $pd) {
+	padding-#{$side}: $pd; 
+}
+
+@mixin heights($height) {
+	height: $height;
+	line-height: $height;
+}
