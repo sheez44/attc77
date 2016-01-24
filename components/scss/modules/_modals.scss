@@ -23,11 +23,13 @@
 
 .close {
 	display: block;
-	background: rgba(#999, 0.9);
+	background: rgba($white, 0.95);
 	padding: 3px;
 	width: 8%;
 	text-align: center;
 	cursor: pointer;
+	position: absolute;
+	right: 0;
 }
 
 img[data-modal-active] {

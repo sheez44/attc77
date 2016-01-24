@@ -102,7 +102,6 @@
 
         var insert = '<img class="img-responsive" data-modal-active src="' + image + '" />';
 
-
         $modal_window.fadeIn(1000);
 
         $modal_window.append(insert).append('<span class="close">X Close</span>');
