@@ -2,19 +2,15 @@
     "use strict";
     var $ = require('jQuery');
 
-    var $img = $('img.team_photo');
+    var $img = $('img[data-modal]');
     var $modal_window = $("#modal-window");
 
     $img.on('click', function(e) {
         e.preventDefault();
 
-        var $targetPicture = $(this).attr('rel') + ".jpg";
-        var path = "../img/informatie/";
+        var image = $(this).attr('src');
 
-        var image = path + $targetPicture;
-
-        var insert = '<img class="img-responsive" src="' + image + '" />';
-
+        var insert = '<img class="img-responsive" data-modal-active src="' + image + '" />';
 
         $modal_window.fadeIn(1000);
 
@@ -30,14 +26,14 @@
         $modal_window.fadeOut(300);
         $modal_window.find('img, span.close').remove();
         $('#mask').fadeOut(300, function() {
-            $('#mask').remove();
+            $('#mask, span.close, img[data-modal-active]').remove();
         });
     });
 
     $(document).keyup(function(e) {
         if(e.keyCode === 27) {
             $('#mask, #modal-window').fadeOut(400, function() {
-                $('#mask').remove();
+                $('#mask, span.close, img[data-modal-active]').remove();
             });
 
         }
