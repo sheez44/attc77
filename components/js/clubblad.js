@@ -6,6 +6,6 @@
 
     $clubblad.on('click', function(e) {
         e.preventDefault();
-        window.open("downloads/clubblad/november_2015.pdf", '_blank');
+        window.open("downloads/clubblad/februari_2016.pdf", '_blank');
     });
 })();
