@@ -1,16 +1,10 @@
-[{
-	"date": "29 januari",
-	"activity": "start voorjaarscompetitie"
-}, {
-	"date": "3 februari",
-	"activity": "zaal gesloten"
-}, {
-	"date": "4 februari ",
-	"activity": "kaartavond"
-}, {
-	"date": "8 februari",
-	"activity": "zaal gesloten"
-}, {
-	"date": "15 juli",
-	"activity": "verrassingstoernooi"
-}]
+[
+  {
+    "date": "15 maart",
+    "activity": "Ledenvergadering"
+  },
+  {
+    "date": "15 juli",
+    "activity": "verrassingstoernooi"
+  }
+]
