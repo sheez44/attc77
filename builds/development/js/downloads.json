@@ -1,30 +1,38 @@
 [
-	{
-		"link": "downloads/clubblad/februari_2016.pdf",
-		"name": "Clubblad Februari 2016"
-	},
-	{
-		"link": "downloads/clubblad/november_2015.pdf",
-		"name": "Clubblad November"
-	},
-  	{
-		"link": "downloads/clubblad/september_2015.pdf",
-		"name": "Clubblad September"
-	},
-	{
-		"link": "downloads/clubblad/juni_2015.pdf",
-		"name": "Clubblad Juni"
-	},
-	{
-		"link": "downloads/clubblad/maart_2015.pdf",
-		"name": "Clubblad Maart"
-	},
-	{
-		"link": "downloads/clubblad/januari_2015.pdf",
-		"name": "Clubblad Januari 2015"
-	},
-	{
-		"link": "downloads/clubblad/november_2014.pdf",
-		"name": "Clubblad November"
-	}
+  {
+    "link": "downloads/clubblad/mei_2016.pdf",
+    "name": "Clubblad Mei"
+  },
+  {
+    "link": "downloads/clubblad/maart_2016.pdf",
+    "name": "Clubblad Maart"
+  },
+  {
+    "link": "downloads/clubblad/februari_2016.pdf",
+    "name": "Clubblad Februari 2016"
+  },
+  {
+    "link": "downloads/clubblad/november_2015.pdf",
+    "name": "Clubblad November"
+  },
+  {
+    "link": "downloads/clubblad/september_2015.pdf",
+    "name": "Clubblad September"
+  },
+  {
+    "link": "downloads/clubblad/juni_2015.pdf",
+    "name": "Clubblad Juni"
+  },
+  {
+    "link": "downloads/clubblad/maart_2015.pdf",
+    "name": "Clubblad Maart"
+  },
+  {
+    "link": "downloads/clubblad/januari_2015.pdf",
+    "name": "Clubblad Januari 2015"
+  },
+  {
+    "link": "downloads/clubblad/november_2014.pdf",
+    "name": "Clubblad November"
+  }
 ]
