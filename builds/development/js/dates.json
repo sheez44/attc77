@@ -1,6 +1,18 @@
-// [
-//   {
-//     "date": "10 december",
-//     "activity": "Feestavond"
-//   }
-// ]
+[
+  {
+    "date": "8 juni",
+    "activity": "Bierproefavond"
+  },
+  {
+    "date": "29 juni",
+    "activity": "Verrassingstoernooi"
+  },
+  {
+    "date": "27 oktober",
+    "activity": "Feestavond"
+  },
+  {
+    "date": "11 november",
+    "activity": "Luikse Mark"
+  }
+]

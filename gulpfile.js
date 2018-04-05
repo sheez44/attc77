@@ -12,7 +12,7 @@ var gulp = require('gulp'),
 var env,
     jsSources,
     sassSources,
-    htmlSources,
+    htmlSources,  
     jsonSources,
     outputDir,
     sassStyle;

@@ -63,7 +63,7 @@
 
     $clubblad.on('click', function(e) {
         e.preventDefault();
-        window.open("downloads/clubblad/februari_2017.pdf", '_blank');
+        window.open("downloads/clubblad/april_2018.pdf", '_blank');
     });
 })();
 (function() {
