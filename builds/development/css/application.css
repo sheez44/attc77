@@ -1633,9 +1633,21 @@ footer {
   letter-spacing: 0.03em;
   background: rgba(91, 119, 136, 0.2);
   margin-top: 2.5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 footer h5 {
-  margin: 0;
+  margin: 0 15px 0;
+}
+footer a {
+  font-size: 0.83rem;
+  line-height: 80px;
 }
 
 td.player, td.bondsnummer {
